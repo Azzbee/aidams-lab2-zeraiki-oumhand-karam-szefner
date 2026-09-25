@@ -1,0 +1,40 @@
+schema_type: dataframe
+api: pandas
+columns:
+  steel_capacity_ttpa:
+    dtype: float64
+    nullable: true
+    coerce: true
+    greater_than_or_equal_to: 0
+  iron_capacity_ttpa:
+    dtype: float64
+    nullable: true
+    coerce: true
+    greater_than_or_equal_to: 0
+  eaf_capacity_ttpa:
+    dtype: float64
+    nullable: true
+    coerce: true
+    greater_than_or_equal_to: 0
+  workforce:
+    dtype: float64
+    nullable: true
+    coerce: true
+    greater_than_or_equal_to: 0
+  plant_age:
+    dtype: float64
+    nullable: true
+    coerce: true
+    greater_than_or_equal_to: 0
+  country:
+    dtype: string[pyarrow]
+  equipment:
+    dtype: string[pyarrow]
+  active_status:
+    dtype: string[pyarrow]
+    isin:
+    - operating
+    - operating pre-retirement
+    - both
+    - no active capacity
+strict: true

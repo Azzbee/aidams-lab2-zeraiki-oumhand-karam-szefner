@@ -1,0 +1,46 @@
+{
+  "selected_model": "RandomizedSearch: Random Forest",
+  "selected_cv_rmse": 814.9742515304172,
+  "test_metrics": {
+    "RMSE": 984.1501092318588,
+    "MAE": 447.98453586638794,
+    "R2": 0.936211598968197
+  },
+  "target": "2024 crude steel production",
+  "units": "thousand metric tonnes",
+  "snapshot": "June 2026 V1",
+  "data_sha256": "a5768b59cd7e6cec217692ae45eda80ea70aab1666aef74332cc1b41dd5338eb",
+  "model_sha256": "517a7d5de78fa70070b750a5c9870b76f0683beaad62f81db9593941965df3a9",
+  "features": [
+    "steel_capacity_ttpa",
+    "iron_capacity_ttpa",
+    "eaf_capacity_ttpa",
+    "workforce",
+    "plant_age",
+    "country",
+    "equipment",
+    "active_status"
+  ],
+  "engineered_features": [
+    "log_steel_capacity",
+    "capacity_per_worker",
+    "eaf_share"
+  ],
+  "seed": 42,
+  "train_count": 205,
+  "test_count": 52,
+  "python": "3.12.12",
+  "versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "pandera": "0.33.1",
+    "mlflow": "3.16.1",
+    "optuna": "5.0.0",
+    "optuna-integration": "5.0.0",
+    "joblib": "1.6.0"
+  },
+  "execution_id": "20260925T081244982221Z",
+  "optuna_study": "lab2-20260925T081244982221Z",
+  "limitation": "Retrospective snapshot model, not validated for future-year forecasting."
+}

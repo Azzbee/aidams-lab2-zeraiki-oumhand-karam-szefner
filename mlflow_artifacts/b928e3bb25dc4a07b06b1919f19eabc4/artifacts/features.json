@@ -1,0 +1,17 @@
+{
+  "raw_inputs": [
+    "steel_capacity_ttpa",
+    "iron_capacity_ttpa",
+    "eaf_capacity_ttpa",
+    "workforce",
+    "plant_age",
+    "country",
+    "equipment",
+    "active_status"
+  ],
+  "engineered": [
+    "log_steel_capacity",
+    "capacity_per_worker",
+    "eaf_share"
+  ]
+}

@@ -1,0 +1,6 @@
+GEM plant ID,steel_capacity_ttpa,iron_capacity_ttpa,eaf_capacity_ttpa,workforce,plant_age,country,equipment,active_status
+P100000120661,6000.0,9466.0,0.0,3183.0,65.0,Japan,BF; BOF,operating
+P100000120951,908.0,0.0,908.0,100.0,45.0,United States,EAF,operating
+P100000120626,1216.0,0.0,1216.0,421.0,58.0,Italy,EAF,operating
+P100000120513,9600.0,11570.0,4600.0,7000.0,31.0,India,BF; BOF; DRI; EAF; Iron other/unspecified; Steel other/unspecified,operating
+P100000120803,1150.0,0.0,1150.0,2277.0,84.0,Russia,DRI; EAF,operating

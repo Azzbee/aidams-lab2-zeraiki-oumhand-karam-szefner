@@ -1,0 +1,10 @@
+.venv/
+.tabfm-venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.db-shm
+*.db-wal

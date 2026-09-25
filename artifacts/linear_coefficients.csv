@@ -1,0 +1,84 @@
+,coefficient_ttpa
+numeric__steel_capacity_ttpa,1728.7487967151676
+numeric__iron_capacity_ttpa,815.0930679498149
+numeric__eaf_capacity_ttpa,-10.689154329299072
+numeric__workforce,277.4812146976839
+numeric__plant_age,-20.440985673714238
+numeric__log_steel_capacity,184.1944842390344
+numeric__capacity_per_worker,-40.90285261827012
+numeric__eaf_share,322.51630413417695
+numeric__missingindicator_workforce,6.924274188735424
+numeric__missingindicator_plant_age,12.341830583382688
+numeric__missingindicator_capacity_per_worker,6.924274188729797
+numeric__missingindicator_eaf_share,266.9096537394274
+category__country_Argentina,-539.6750784316341
+category__country_Austria,986.941825232981
+category__country_Azerbaijan,-387.592084742621
+category__country_Bahrain,-30.35457129845122
+category__country_Bangladesh,233.48022068796416
+category__country_Belarus,-211.43282547373525
+category__country_Belgium,1818.3483180135545
+category__country_Brazil,111.81662647050257
+category__country_Canada,161.37497958112806
+category__country_Chile,-68.31696717455111
+category__country_China,791.1043341842495
+category__country_Czech Republic,377.6197686831372
+category__country_France,-66.42665010001508
+category__country_Germany,471.25892507018125
+category__country_Guatemala,-242.005239642991
+category__country_India,-451.2810939975286
+category__country_Indonesia,-2350.3804890112865
+category__country_Italy,-648.0668282897286
+category__country_Japan,38.802582172569146
+category__country_Kazakhstan,-3011.5866519339693
+category__country_Libya,-607.9545516851335
+category__country_Luxembourg,-494.40107023258474
+category__country_Mexico,-382.63580209626866
+category__country_Moldova,-1337.6750954099016
+category__country_Morocco,31.491801899982704
+category__country_Myanmar,-188.59942718908667
+category__country_Netherlands,1913.1098752799064
+category__country_North Macedonia,-186.61950330775494
+category__country_Pakistan,83.23142068832556
+category__country_Peru,255.92086103711404
+category__country_Poland,-103.22530217932285
+category__country_Qatar,-1224.9612853681501
+category__country_Russia,344.51156153698855
+category__country_Singapore,-370.07755301127406
+category__country_Slovakia,-215.99590157228147
+category__country_Slovenia,-172.73954492652757
+category__country_South Africa,-242.49071990706676
+category__country_South Korea,210.56592619960807
+category__country_Spain,-226.52578431176994
+category__country_Sweden,229.68851188561513
+category__country_Taiwan,334.9962368475376
+category__country_Tunisia,-109.7709340194275
+category__country_Türkiye,711.5501283115234
+category__country_Ukraine,-710.5772539695358
+category__country_United Arab Emirates,130.75038869528157
+category__country_United Kingdom,1197.7181269895414
+category__country_United States,-86.73829865513642
+category__country_Uzbekistan,-564.5527820364708
+category__country_Vietnam,280.75479843800997
+category__equipment_BF; BOF; DRI,397.62703959390944
+category__equipment_BF; BOF; DRI; EAF,-489.3108634384904
+category__equipment_BF; BOF; DRI; EAF; Iron other/unspecified,631.0520450219203
+category__equipment_BF; BOF; DRI; EAF; Iron other/unspecified; Steel other/unspecified,2338.86004400928
+category__equipment_BF; BOF; DRI; Steel other/unspecified,649.8611482476672
+category__equipment_BF; BOF; EAF,-498.99849946237237
+category__equipment_BF; BOF; Iron other/unspecified,-544.5802487804299
+category__equipment_BF; BOF; Steel other/unspecified,410.1626798814772
+category__equipment_BF; DRI; EAF,-330.667410502362
+category__equipment_BF; DRI; EAF; Steel other/unspecified,8.890324488491046
+category__equipment_BF; EAF,-577.8187653233059
+category__equipment_BF; Steel other/unspecified,702.2099498319104
+category__equipment_BOF,-148.27076048133637
+category__equipment_BOF; DRI; EAF,-1866.2409708301134
+category__equipment_BOF; EAF,1156.6097312750667
+category__equipment_DRI; EAF,-404.3961235016404
+category__equipment_EAF,-146.38619057280164
+category__equipment_IF,233.48022068796632
+category__equipment_IF; Steel other/unspecified,83.2314206883251
+category__active_status_no active capacity,41.17280172212193
+category__active_status_operating,-436.8502436067303
+category__active_status_operating pre-retirement,-1073.5398250815992

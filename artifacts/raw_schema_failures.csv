@@ -1,0 +1,2501 @@
+schema_context,column,check,check_number,failure_case,index
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,14
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,20
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,59
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,103
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,107
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,118
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,183
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,219
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,231
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,236
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,237
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,238
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,239
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,>0,282
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,291
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,295
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,338
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,369
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,377
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,379
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,405
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,425
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,426
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,454
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,>0,458
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,460
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,487
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,505
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,506
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,516
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,521
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,546
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,581
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,611
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,639
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,665
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,695
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,696
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,742
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,779
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,798
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,811
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,850
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,866
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,882
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,884
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,907
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,912
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,939
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,967
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,978
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,>0,984
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,996
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,1087
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,1182
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,1184
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,1200
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,1205
+Column,Nominal crude steel capacity (ttpa) [operating],dtype('float64'),,N/A,1211
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,67
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,105
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,153
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,198
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,>0,282
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,339
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,418
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,425
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,462
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,463
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,555
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,564
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,621
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,706
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,915
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,917
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,942
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,946
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,969
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,972
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,977
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1066
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1069
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1238
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1262
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1269
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,0
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,2
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,3
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,5
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,6
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,7
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,8
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,9
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,10
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,11
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,15
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,18
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,19
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,21
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,26
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,27
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,30
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,31
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,33
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,38
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,40
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,41
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,43
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,48
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,49
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,50
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,51
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,54
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,61
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,62
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,64
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,66
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,67
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,68
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,71
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,73
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,74
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,78
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,87
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,96
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,98
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,99
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,101
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,102
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,106
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,109
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,112
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,114
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,115
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,117
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,120
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,126
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,127
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,128
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,130
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,145
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,149
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,152
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,153
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,156
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,160
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,161
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,163
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,167
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,169
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,171
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,172
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,173
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,174
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,175
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,176
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,177
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,179
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,187
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,188
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,193
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,199
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,202
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,203
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,206
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,207
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,209
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,211
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,215
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,220
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,221
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,222
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,223
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,224
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,225
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,226
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,228
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,230
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,233
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,240
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,241
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,242
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,248
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,249
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,251
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,252
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,256
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,258
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,262
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,263
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,264
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,267
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,268
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,271
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,272
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,275
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,276
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,277
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,279
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,287
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,292
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,296
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,301
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,302
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,303
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,307
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,308
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,309
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,310
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,311
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,312
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,313
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,314
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,315
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,316
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,317
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,318
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,319
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,320
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,324
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,325
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,327
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,329
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,332
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,336
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,339
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,340
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,341
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,344
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,346
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,347
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,348
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,349
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,351
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,353
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,354
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,355
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,356
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,357
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,359
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,360
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,361
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,362
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,364
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,368
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,371
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,374
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,375
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,376
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,380
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,386
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,389
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,390
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,391
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,392
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,393
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,394
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,395
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,397
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,399
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,400
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,401
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,402
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,403
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,404
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,407
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,408
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,409
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,410
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,417
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,418
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,419
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,421
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,422
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,423
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,428
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,429
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,430
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,431
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,433
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,437
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,438
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,439
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,440
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,445
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,446
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,477
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,484
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,488
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,493
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,495
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,496
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,500
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,503
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,509
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,510
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,512
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,515
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,518
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,523
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,525
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,526
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,527
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,536
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,537
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,539
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,541
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,542
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,547
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,549
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,550
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,554
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,560
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,561
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,570
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,573
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,585
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,599
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,620
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,624
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,626
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,627
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,629
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,630
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,633
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,635
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,641
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,643
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,646
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,649
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,650
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,653
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,657
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,658
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,659
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,666
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,667
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,670
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,674
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,675
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,685
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,690
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,692
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,694
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,697
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,699
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,700
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,702
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,707
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,709
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,710
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,713
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,714
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,715
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,718
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,719
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,720
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,725
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,727
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,732
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,738
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,743
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,752
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,754
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,757
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,758
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,761
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,767
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,773
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,781
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,782
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,785
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,786
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,787
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,792
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,797
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,799
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,800
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,801
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,802
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,803
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,804
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,805
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,806
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,807
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,808
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,809
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,810
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,812
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,813
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,815
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,816
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,817
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,819
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,820
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,821
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,822
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,823
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,824
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,830
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,832
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,833
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,834
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,835
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,836
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,837
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,840
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,851
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,855
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,856
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,857
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,859
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,863
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,864
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,868
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,869
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,870
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,876
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,881
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,883
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,891
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,892
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,893
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,894
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,895
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,896
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,897
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,898
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,899
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,900
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,901
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,906
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,908
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,914
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,923
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,927
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,928
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,929
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,930
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,931
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,933
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,953
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,972
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,980
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,981
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,982
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,986
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,989
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,992
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1002
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1003
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1004
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1007
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1008
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1009
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1010
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1011
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1012
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1013
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1016
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1017
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1018
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1024
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1025
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1026
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1027
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1029
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1030
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1031
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1032
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1036
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1038
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1039
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1041
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1042
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1043
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1044
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1045
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1046
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1048
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1050
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1054
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1061
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1062
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1078
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1084
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1085
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1086
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1088
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1092
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1097
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1101
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1102
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1103
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1105
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1113
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1125
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1126
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1127
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1128
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1129
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1130
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1135
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1137
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1138
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1145
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1146
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1147
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1148
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1150
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1151
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1152
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1155
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1158
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1163
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1164
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1166
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1172
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1175
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1177
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1179
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1180
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1181
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1183
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1185
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1186
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1187
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1188
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1191
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1192
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1195
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1197
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1202
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1222
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1234
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1236
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1244
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1246
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1251
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1253
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1255
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1257
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1260
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1267
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1270
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1275
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1279
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1280
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1281
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1286
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1289
+Column,Nominal iron capacity (ttpa) [operating],dtype('float64'),,N/A,1291
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,16
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,59
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,75
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,78
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,144
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,205
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,282
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,298
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,326
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,415
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,432
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,487
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,490
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,507
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,551
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,574
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,580
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,644
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,669
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,704
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,712
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,774
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,779
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,783
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,909
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,921
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,936
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,938
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,939
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,953
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,988
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,994
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1067
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1120
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1205
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1221
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1247
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1283
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1292
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,8
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,12
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,14
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,20
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,27
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,29
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,34
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,38
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,40
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,42
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,44
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,45
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,47
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,52
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,55
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,57
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,59
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,64
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,66
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,67
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,70
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,72
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,76
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,77
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,80
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,84
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,87
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,88
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,97
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,103
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,104
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,105
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,107
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,110
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,114
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,118
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,119
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,133
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,141
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,144
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,146
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,153
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,160
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,161
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,166
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,169
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,183
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,185
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,186
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,189
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,190
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,194
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,195
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,196
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,198
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,201
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,206
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,208
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,210
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,213
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,214
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,216
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,219
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,229
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,231
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,232
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,236
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,237
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,238
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,239
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,243
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,246
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,250
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,254
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,255
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,269
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,281
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,282
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,285
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,288
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,291
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,295
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,297
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,303
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,305
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,321
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,323
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,330
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,331
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,333
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,338
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,339
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,342
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,345
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,350
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,369
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,373
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,377
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,379
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,396
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,398
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,405
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,414
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,418
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,424
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,425
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,426
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,427
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,441
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,444
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,447
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,448
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,449
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,453
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,454
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,456
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,457
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,>0,458
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,459
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,460
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,462
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,463
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,464
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,466
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,467
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,471
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,473
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,476
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,478
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,482
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,483
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,485
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,487
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,490
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,491
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,498
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,499
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,501
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,505
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,506
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,508
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,513
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,514
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,516
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,521
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,528
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,531
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,532
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,535
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,540
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,541
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,544
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,545
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,546
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,555
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,556
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,557
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,558
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,559
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,562
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,569
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,572
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,574
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,576
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,577
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,578
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,581
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,582
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,583
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,595
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,597
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,598
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,600
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,602
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,603
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,604
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,607
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,611
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,614
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,619
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,623
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,624
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,631
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,639
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,644
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,651
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,660
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,664
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,665
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,668
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,671
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,672
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,673
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,680
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,683
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,684
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,688
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,693
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,695
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,696
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,703
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,710
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,726
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,731
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,737
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,740
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,742
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,748
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,751
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,752
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,753
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,755
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,759
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,760
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,763
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,766
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,768
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,770
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,771
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,772
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,774
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,775
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,777
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,779
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,780
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,788
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,791
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,798
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,811
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,825
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,826
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,827
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,828
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,841
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,842
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,844
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,845
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,850
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,854
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,860
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,865
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,866
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,872
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,878
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,880
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,882
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,884
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,887
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,890
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,891
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,902
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,903
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,904
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,905
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,906
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,907
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,912
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,915
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,916
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,917
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,918
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,921
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,924
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,938
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,939
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,940
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,942
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,943
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,946
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,948
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,950
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,951
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,956
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,959
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,962
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,965
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,966
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,967
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,968
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,969
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,970
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,972
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,976
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,977
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,978
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,979
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,983
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,>0,984
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,990
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,993
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,994
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,995
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,996
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,997
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,998
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,999
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1000
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1001
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1005
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1006
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1065
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1066
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1067
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1069
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1070
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1076
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1077
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1079
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1087
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1091
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1093
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1106
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1110
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1116
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1118
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1120
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1131
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1132
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1133
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1149
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1154
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1157
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1159
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1160
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1169
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1179
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1182
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1184
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1185
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1188
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1193
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1194
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1200
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1201
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1205
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1211
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1212
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1213
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1216
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1218
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1229
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1230
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1231
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1232
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1235
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1237
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1247
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1248
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1249
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1250
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1252
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1254
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1259
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1262
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1264
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1266
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1271
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1273
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1276
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1277
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1278
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1285
+Column,Nominal EAF steel capacity (ttpa) [operating],dtype('float64'),,N/A,1287
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,4
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,17
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,67
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,74
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,75
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,87
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,105
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,151
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,153
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,158
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,194
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,198
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,244
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,282
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,298
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,337
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,339
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,365
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,418
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,425
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,437
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,462
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,463
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,472
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,487
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,490
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,491
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,502
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,516
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,555
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,556
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,564
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,581
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,621
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,644
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,669
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,704
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,706
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,774
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,779
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,783
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,882
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,909
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,915
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,917
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,921
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,922
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,938
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,939
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,942
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,946
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,963
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,969
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,972
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,977
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,994
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1033
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1034
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1035
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1063
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1066
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1067
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1069
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1090
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1114
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1120
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1153
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1193
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1194
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1199
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1205
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1209
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1226
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1238
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1262
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],dtype('float64'),,N/A,1269
+Column,Workforce size,dtype('float64'),,unknown,3
+Column,Workforce size,dtype('float64'),,unknown,12
+Column,Workforce size,dtype('float64'),,unknown,19
+Column,Workforce size,dtype('float64'),,unknown,24
+Column,Workforce size,dtype('float64'),,unknown,26
+Column,Workforce size,dtype('float64'),,unknown,27
+Column,Workforce size,dtype('float64'),,unknown,56
+Column,Workforce size,dtype('float64'),,unknown,58
+Column,Workforce size,dtype('float64'),,unknown,60
+Column,Workforce size,dtype('float64'),,unknown,69
+Column,Workforce size,dtype('float64'),,unknown,86
+Column,Workforce size,dtype('float64'),,unknown,91
+Column,Workforce size,dtype('float64'),,unknown,92
+Column,Workforce size,dtype('float64'),,unknown,111
+Column,Workforce size,dtype('float64'),,unknown,113
+Column,Workforce size,dtype('float64'),,unknown,114
+Column,Workforce size,dtype('float64'),,unknown,118
+Column,Workforce size,dtype('float64'),,unknown,121
+Column,Workforce size,dtype('float64'),,unknown,130
+Column,Workforce size,dtype('float64'),,unknown,135
+Column,Workforce size,dtype('float64'),,unknown,137
+Column,Workforce size,dtype('float64'),,unknown,138
+Column,Workforce size,dtype('float64'),,unknown,140
+Column,Workforce size,dtype('float64'),,unknown,142
+Column,Workforce size,dtype('float64'),,unknown,148
+Column,Workforce size,dtype('float64'),,unknown,149
+Column,Workforce size,dtype('float64'),,unknown,154
+Column,Workforce size,dtype('float64'),,unknown,156
+Column,Workforce size,dtype('float64'),,unknown,157
+Column,Workforce size,dtype('float64'),,unknown,159
+Column,Workforce size,dtype('float64'),,unknown,165
+Column,Workforce size,dtype('float64'),,unknown,170
+Column,Workforce size,dtype('float64'),,unknown,180
+Column,Workforce size,dtype('float64'),,unknown,181
+Column,Workforce size,dtype('float64'),,unknown,182
+Column,Workforce size,dtype('float64'),,unknown,196
+Column,Workforce size,dtype('float64'),,unknown,197
+Column,Workforce size,dtype('float64'),,unknown,206
+Column,Workforce size,dtype('float64'),,unknown,229
+Column,Workforce size,dtype('float64'),,unknown,230
+Column,Workforce size,dtype('float64'),,unknown,239
+Column,Workforce size,dtype('float64'),,unknown,260
+Column,Workforce size,dtype('float64'),,unknown,264
+Column,Workforce size,dtype('float64'),,unknown,273
+Column,Workforce size,dtype('float64'),,unknown,277
+Column,Workforce size,dtype('float64'),,unknown,280
+Column,Workforce size,dtype('float64'),,unknown,282
+Column,Workforce size,dtype('float64'),,unknown,284
+Column,Workforce size,dtype('float64'),,unknown,290
+Column,Workforce size,dtype('float64'),,unknown,291
+Column,Workforce size,dtype('float64'),,unknown,292
+Column,Workforce size,dtype('float64'),,unknown,294
+Column,Workforce size,dtype('float64'),,unknown,299
+Column,Workforce size,dtype('float64'),,unknown,302
+Column,Workforce size,dtype('float64'),,unknown,303
+Column,Workforce size,dtype('float64'),,unknown,304
+Column,Workforce size,dtype('float64'),,unknown,312
+Column,Workforce size,dtype('float64'),,unknown,322
+Column,Workforce size,dtype('float64'),,unknown,342
+Column,Workforce size,dtype('float64'),,unknown,364
+Column,Workforce size,dtype('float64'),,unknown,368
+Column,Workforce size,dtype('float64'),,unknown,369
+Column,Workforce size,dtype('float64'),,unknown,377
+Column,Workforce size,dtype('float64'),,unknown,384
+Column,Workforce size,dtype('float64'),,unknown,397
+Column,Workforce size,dtype('float64'),,unknown,403
+Column,Workforce size,dtype('float64'),,unknown,404
+Column,Workforce size,dtype('float64'),,unknown,416
+Column,Workforce size,dtype('float64'),,unknown,419
+Column,Workforce size,dtype('float64'),,unknown,430
+Column,Workforce size,dtype('float64'),,unknown,433
+Column,Workforce size,dtype('float64'),,unknown,436
+Column,Workforce size,dtype('float64'),,unknown,446
+Column,Workforce size,dtype('float64'),,unknown,450
+Column,Workforce size,dtype('float64'),,unknown,451
+Column,Workforce size,dtype('float64'),,unknown,452
+Column,Workforce size,dtype('float64'),,unknown,455
+Column,Workforce size,dtype('float64'),,unknown,461
+Column,Workforce size,dtype('float64'),,unknown,465
+Column,Workforce size,dtype('float64'),,unknown,468
+Column,Workforce size,dtype('float64'),,unknown,470
+Column,Workforce size,dtype('float64'),,unknown,484
+Column,Workforce size,dtype('float64'),,unknown,486
+Column,Workforce size,dtype('float64'),,unknown,500
+Column,Workforce size,dtype('float64'),,unknown,504
+Column,Workforce size,dtype('float64'),,unknown,505
+Column,Workforce size,dtype('float64'),,unknown,506
+Column,Workforce size,dtype('float64'),,unknown,512
+Column,Workforce size,dtype('float64'),,unknown,517
+Column,Workforce size,dtype('float64'),,unknown,519
+Column,Workforce size,dtype('float64'),,unknown,530
+Column,Workforce size,dtype('float64'),,unknown,533
+Column,Workforce size,dtype('float64'),,unknown,534
+Column,Workforce size,dtype('float64'),,unknown,538
+Column,Workforce size,dtype('float64'),,unknown,544
+Column,Workforce size,dtype('float64'),,unknown,546
+Column,Workforce size,dtype('float64'),,unknown,547
+Column,Workforce size,dtype('float64'),,unknown,563
+Column,Workforce size,dtype('float64'),,unknown,567
+Column,Workforce size,dtype('float64'),,unknown,568
+Column,Workforce size,dtype('float64'),,unknown,571
+Column,Workforce size,dtype('float64'),,unknown,580
+Column,Workforce size,dtype('float64'),,unknown,583
+Column,Workforce size,dtype('float64'),,unknown,584
+Column,Workforce size,dtype('float64'),,unknown,587
+Column,Workforce size,dtype('float64'),,unknown,588
+Column,Workforce size,dtype('float64'),,unknown,589
+Column,Workforce size,dtype('float64'),,unknown,590
+Column,Workforce size,dtype('float64'),,unknown,592
+Column,Workforce size,dtype('float64'),,unknown,594
+Column,Workforce size,dtype('float64'),,unknown,605
+Column,Workforce size,dtype('float64'),,unknown,608
+Column,Workforce size,dtype('float64'),,unknown,609
+Column,Workforce size,dtype('float64'),,unknown,612
+Column,Workforce size,dtype('float64'),,unknown,613
+Column,Workforce size,dtype('float64'),,unknown,615
+Column,Workforce size,dtype('float64'),,unknown,616
+Column,Workforce size,dtype('float64'),,unknown,622
+Column,Workforce size,dtype('float64'),,unknown,625
+Column,Workforce size,dtype('float64'),,unknown,626
+Column,Workforce size,dtype('float64'),,unknown,628
+Column,Workforce size,dtype('float64'),,unknown,637
+Column,Workforce size,dtype('float64'),,unknown,648
+Column,Workforce size,dtype('float64'),,unknown,654
+Column,Workforce size,dtype('float64'),,unknown,677
+Column,Workforce size,dtype('float64'),,unknown,682
+Column,Workforce size,dtype('float64'),,unknown,686
+Column,Workforce size,dtype('float64'),,unknown,687
+Column,Workforce size,dtype('float64'),,unknown,689
+Column,Workforce size,dtype('float64'),,unknown,690
+Column,Workforce size,dtype('float64'),,unknown,691
+Column,Workforce size,dtype('float64'),,unknown,705
+Column,Workforce size,dtype('float64'),,unknown,713
+Column,Workforce size,dtype('float64'),,unknown,718
+Column,Workforce size,dtype('float64'),,unknown,719
+Column,Workforce size,dtype('float64'),,unknown,720
+Column,Workforce size,dtype('float64'),,unknown,721
+Column,Workforce size,dtype('float64'),,unknown,722
+Column,Workforce size,dtype('float64'),,unknown,723
+Column,Workforce size,dtype('float64'),,unknown,726
+Column,Workforce size,dtype('float64'),,unknown,734
+Column,Workforce size,dtype('float64'),,unknown,739
+Column,Workforce size,dtype('float64'),,unknown,741
+Column,Workforce size,dtype('float64'),,unknown,744
+Column,Workforce size,dtype('float64'),,unknown,748
+Column,Workforce size,dtype('float64'),,unknown,749
+Column,Workforce size,dtype('float64'),,unknown,753
+Column,Workforce size,dtype('float64'),,unknown,755
+Column,Workforce size,dtype('float64'),,unknown,762
+Column,Workforce size,dtype('float64'),,unknown,769
+Column,Workforce size,dtype('float64'),,unknown,785
+Column,Workforce size,dtype('float64'),,unknown,786
+Column,Workforce size,dtype('float64'),,unknown,790
+Column,Workforce size,dtype('float64'),,unknown,814
+Column,Workforce size,dtype('float64'),,unknown,826
+Column,Workforce size,dtype('float64'),,unknown,829
+Column,Workforce size,dtype('float64'),,unknown,846
+Column,Workforce size,dtype('float64'),,unknown,848
+Column,Workforce size,dtype('float64'),,unknown,849
+Column,Workforce size,dtype('float64'),,unknown,853
+Column,Workforce size,dtype('float64'),,unknown,858
+Column,Workforce size,dtype('float64'),,unknown,859
+Column,Workforce size,dtype('float64'),,unknown,866
+Column,Workforce size,dtype('float64'),,unknown,870
+Column,Workforce size,dtype('float64'),,unknown,871
+Column,Workforce size,dtype('float64'),,unknown,874
+Column,Workforce size,dtype('float64'),,unknown,884
+Column,Workforce size,dtype('float64'),,unknown,886
+Column,Workforce size,dtype('float64'),,unknown,887
+Column,Workforce size,dtype('float64'),,unknown,904
+Column,Workforce size,dtype('float64'),,unknown,910
+Column,Workforce size,dtype('float64'),,unknown,911
+Column,Workforce size,dtype('float64'),,unknown,913
+Column,Workforce size,dtype('float64'),,unknown,919
+Column,Workforce size,dtype('float64'),,unknown,920
+Column,Workforce size,dtype('float64'),,unknown,930
+Column,Workforce size,dtype('float64'),,unknown,937
+Column,Workforce size,dtype('float64'),,unknown,944
+Column,Workforce size,dtype('float64'),,unknown,945
+Column,Workforce size,dtype('float64'),,unknown,947
+Column,Workforce size,dtype('float64'),,unknown,949
+Column,Workforce size,dtype('float64'),,unknown,952
+Column,Workforce size,dtype('float64'),,unknown,955
+Column,Workforce size,dtype('float64'),,unknown,957
+Column,Workforce size,dtype('float64'),,unknown,959
+Column,Workforce size,dtype('float64'),,unknown,971
+Column,Workforce size,dtype('float64'),,unknown,973
+Column,Workforce size,dtype('float64'),,unknown,982
+Column,Workforce size,dtype('float64'),,unknown,985
+Column,Workforce size,dtype('float64'),,unknown,997
+Column,Workforce size,dtype('float64'),,unknown,998
+Column,Workforce size,dtype('float64'),,unknown,1000
+Column,Workforce size,dtype('float64'),,unknown,1003
+Column,Workforce size,dtype('float64'),,unknown,1004
+Column,Workforce size,dtype('float64'),,unknown,1021
+Column,Workforce size,dtype('float64'),,unknown,1028
+Column,Workforce size,dtype('float64'),,unknown,1029
+Column,Workforce size,dtype('float64'),,unknown,1037
+Column,Workforce size,dtype('float64'),,unknown,1050
+Column,Workforce size,dtype('float64'),,unknown,1053
+Column,Workforce size,dtype('float64'),,unknown,1056
+Column,Workforce size,dtype('float64'),,unknown,1057
+Column,Workforce size,dtype('float64'),,unknown,1059
+Column,Workforce size,dtype('float64'),,unknown,1071
+Column,Workforce size,dtype('float64'),,unknown,1073
+Column,Workforce size,dtype('float64'),,unknown,1080
+Column,Workforce size,dtype('float64'),,unknown,1099
+Column,Workforce size,dtype('float64'),,unknown,1107
+Column,Workforce size,dtype('float64'),,unknown,1108
+Column,Workforce size,dtype('float64'),,unknown,1112
+Column,Workforce size,dtype('float64'),,unknown,1117
+Column,Workforce size,dtype('float64'),,unknown,1122
+Column,Workforce size,dtype('float64'),,unknown,1123
+Column,Workforce size,dtype('float64'),,unknown,1124
+Column,Workforce size,dtype('float64'),,unknown,1134
+Column,Workforce size,dtype('float64'),,unknown,1140
+Column,Workforce size,dtype('float64'),,unknown,1141
+Column,Workforce size,dtype('float64'),,unknown,1145
+Column,Workforce size,dtype('float64'),,unknown,1146
+Column,Workforce size,dtype('float64'),,unknown,1147
+Column,Workforce size,dtype('float64'),,unknown,1148
+Column,Workforce size,dtype('float64'),,unknown,1150
+Column,Workforce size,dtype('float64'),,unknown,1156
+Column,Workforce size,dtype('float64'),,unknown,1163
+Column,Workforce size,dtype('float64'),,unknown,1170
+Column,Workforce size,dtype('float64'),,unknown,1178
+Column,Workforce size,dtype('float64'),,unknown,1182
+Column,Workforce size,dtype('float64'),,unknown,1183
+Column,Workforce size,dtype('float64'),,unknown,1186
+Column,Workforce size,dtype('float64'),,unknown,1187
+Column,Workforce size,dtype('float64'),,unknown,1190
+Column,Workforce size,dtype('float64'),,unknown,1192
+Column,Workforce size,dtype('float64'),,unknown,1196
+Column,Workforce size,dtype('float64'),,unknown,1197
+Column,Workforce size,dtype('float64'),,unknown,1198
+Column,Workforce size,dtype('float64'),,unknown,1200
+Column,Workforce size,dtype('float64'),,unknown,1202
+Column,Workforce size,dtype('float64'),,unknown,1203
+Column,Workforce size,dtype('float64'),,unknown,1210
+Column,Workforce size,dtype('float64'),,unknown,1214
+Column,Workforce size,dtype('float64'),,unknown,1215
+Column,Workforce size,dtype('float64'),,unknown,1223
+Column,Workforce size,dtype('float64'),,unknown,1225
+Column,Workforce size,dtype('float64'),,unknown,1227
+Column,Workforce size,dtype('float64'),,unknown,1231
+Column,Workforce size,dtype('float64'),,unknown,1241
+Column,Workforce size,dtype('float64'),,unknown,1243
+Column,Workforce size,dtype('float64'),,unknown,1245
+Column,Workforce size,dtype('float64'),,unknown,1261
+Column,Workforce size,dtype('float64'),,unknown,1265
+Column,Workforce size,dtype('float64'),,unknown,1268
+Column,Workforce size,dtype('float64'),,unknown,1273
+Column,Workforce size,dtype('float64'),,unknown,1274
+Column,Workforce size,dtype('float64'),,unknown,1286
+Column,Workforce size,dtype('float64'),,unknown,1288
+Column,Workforce size,dtype('float64'),,unknown,1289
+Column,Workforce size,dtype('float64'),,unknown,1290
+Column,Plant age,dtype('float64'),,unknown,12
+Column,Plant age,dtype('float64'),,unknown,22
+Column,Plant age,dtype('float64'),,unknown,24
+Column,Plant age,dtype('float64'),,N/A,35
+Column,Plant age,dtype('float64'),,unknown,39
+Column,Plant age,dtype('float64'),,unknown,56
+Column,Plant age,dtype('float64'),,unknown,69
+Column,Plant age,dtype('float64'),,unknown,86
+Column,Plant age,dtype('float64'),,N/A,91
+Column,Plant age,dtype('float64'),,unknown,92
+Column,Plant age,dtype('float64'),,N/A,94
+Column,Plant age,dtype('float64'),,N/A,95
+Column,Plant age,dtype('float64'),,unknown,111
+Column,Plant age,dtype('float64'),,unknown,113
+Column,Plant age,dtype('float64'),,unknown,114
+Column,Plant age,dtype('float64'),,N/A,116
+Column,Plant age,dtype('float64'),,unknown,121
+Column,Plant age,dtype('float64'),,N/A,122
+Column,Plant age,dtype('float64'),,unknown,124
+Column,Plant age,dtype('float64'),,unknown,132
+Column,Plant age,dtype('float64'),,unknown,138
+Column,Plant age,dtype('float64'),,unknown,148
+Column,Plant age,dtype('float64'),,unknown,149
+Column,Plant age,dtype('float64'),,unknown,154
+Column,Plant age,dtype('float64'),,unknown,157
+Column,Plant age,dtype('float64'),,unknown,159
+Column,Plant age,dtype('float64'),,unknown,164
+Column,Plant age,dtype('float64'),,unknown,165
+Column,Plant age,dtype('float64'),,unknown,178
+Column,Plant age,dtype('float64'),,N/A,182
+Column,Plant age,dtype('float64'),,unknown,197
+Column,Plant age,dtype('float64'),,N/A,253
+Column,Plant age,dtype('float64'),,unknown,259
+Column,Plant age,dtype('float64'),,unknown,266
+Column,Plant age,dtype('float64'),,N/A,280
+Column,Plant age,dtype('float64'),,unknown,284
+Column,Plant age,dtype('float64'),,N/A,286
+Column,Plant age,dtype('float64'),,N/A,290
+Column,Plant age,dtype('float64'),,unknown,294
+Column,Plant age,dtype('float64'),,unknown,304
+Column,Plant age,dtype('float64'),,unknown,306
+Column,Plant age,dtype('float64'),,unknown,322
+Column,Plant age,dtype('float64'),,unknown,328
+Column,Plant age,dtype('float64'),,unknown,330
+Column,Plant age,dtype('float64'),,unknown,366
+Column,Plant age,dtype('float64'),,unknown,367
+Column,Plant age,dtype('float64'),,N/A,372
+Column,Plant age,dtype('float64'),,unknown,379
+Column,Plant age,dtype('float64'),,N/A,381
+Column,Plant age,dtype('float64'),,N/A,382
+Column,Plant age,dtype('float64'),,N/A,383
+Column,Plant age,dtype('float64'),,N/A,384
+Column,Plant age,dtype('float64'),,N/A,385
+Column,Plant age,dtype('float64'),,unknown,387
+Column,Plant age,dtype('float64'),,unknown,416
+Column,Plant age,dtype('float64'),,unknown,434
+Column,Plant age,dtype('float64'),,unknown,435
+Column,Plant age,dtype('float64'),,unknown,436
+Column,Plant age,dtype('float64'),,unknown,451
+Column,Plant age,dtype('float64'),,unknown,452
+Column,Plant age,dtype('float64'),,unknown,461
+Column,Plant age,dtype('float64'),,unknown,470
+Column,Plant age,dtype('float64'),,N/A,474
+Column,Plant age,dtype('float64'),,N/A,519
+Column,Plant age,dtype('float64'),,N/A,520
+Column,Plant age,dtype('float64'),,N/A,524
+Column,Plant age,dtype('float64'),,unknown,525
+Column,Plant age,dtype('float64'),,unknown,534
+Column,Plant age,dtype('float64'),,unknown,538
+Column,Plant age,dtype('float64'),,unknown,546
+Column,Plant age,dtype('float64'),,N/A,587
+Column,Plant age,dtype('float64'),,unknown,589
+Column,Plant age,dtype('float64'),,unknown,590
+Column,Plant age,dtype('float64'),,unknown,591
+Column,Plant age,dtype('float64'),,unknown,592
+Column,Plant age,dtype('float64'),,unknown,596
+Column,Plant age,dtype('float64'),,unknown,605
+Column,Plant age,dtype('float64'),,N/A,608
+Column,Plant age,dtype('float64'),,N/A,609
+Column,Plant age,dtype('float64'),,N/A,612
+Column,Plant age,dtype('float64'),,N/A,613
+Column,Plant age,dtype('float64'),,N/A,615
+Column,Plant age,dtype('float64'),,unknown,628
+Column,Plant age,dtype('float64'),,unknown,632
+Column,Plant age,dtype('float64'),,N/A,647
+Column,Plant age,dtype('float64'),,unknown,654
+Column,Plant age,dtype('float64'),,unknown,655
+Column,Plant age,dtype('float64'),,unknown,662
+Column,Plant age,dtype('float64'),,unknown,677
+Column,Plant age,dtype('float64'),,unknown,681
+Column,Plant age,dtype('float64'),,unknown,682
+Column,Plant age,dtype('float64'),,unknown,698
+Column,Plant age,dtype('float64'),,N/A,705
+Column,Plant age,dtype('float64'),,N/A,708
+Column,Plant age,dtype('float64'),,unknown,721
+Column,Plant age,dtype('float64'),,N/A,722
+Column,Plant age,dtype('float64'),,N/A,723
+Column,Plant age,dtype('float64'),,N/A,728
+Column,Plant age,dtype('float64'),,unknown,734
+Column,Plant age,dtype('float64'),,N/A,736
+Column,Plant age,dtype('float64'),,unknown,739
+Column,Plant age,dtype('float64'),,N/A,741
+Column,Plant age,dtype('float64'),,unknown,754
+Column,Plant age,dtype('float64'),,N/A,764
+Column,Plant age,dtype('float64'),,N/A,789
+Column,Plant age,dtype('float64'),,N/A,790
+Column,Plant age,dtype('float64'),,unknown,814
+Column,Plant age,dtype('float64'),,N/A,818
+Column,Plant age,dtype('float64'),,unknown,829
+Column,Plant age,dtype('float64'),,unknown,843
+Column,Plant age,dtype('float64'),,unknown,848
+Column,Plant age,dtype('float64'),,unknown,849
+Column,Plant age,dtype('float64'),,N/A,853
+Column,Plant age,dtype('float64'),,N/A,862
+Column,Plant age,dtype('float64'),,unknown,866
+Column,Plant age,dtype('float64'),,unknown,871
+Column,Plant age,dtype('float64'),,unknown,873
+Column,Plant age,dtype('float64'),,unknown,874
+Column,Plant age,dtype('float64'),,unknown,885
+Column,Plant age,dtype('float64'),,unknown,886
+Column,Plant age,dtype('float64'),,unknown,903
+Column,Plant age,dtype('float64'),,unknown,905
+Column,Plant age,dtype('float64'),,unknown,910
+Column,Plant age,dtype('float64'),,unknown,913
+Column,Plant age,dtype('float64'),,unknown,919
+Column,Plant age,dtype('float64'),,N/A,920
+Column,Plant age,dtype('float64'),,unknown,925
+Column,Plant age,dtype('float64'),,unknown,932
+Column,Plant age,dtype('float64'),,unknown,937
+Column,Plant age,dtype('float64'),,unknown,944
+Column,Plant age,dtype('float64'),,unknown,973
+Column,Plant age,dtype('float64'),,N/A,991
+Column,Plant age,dtype('float64'),,unknown,1000
+Column,Plant age,dtype('float64'),,unknown,1021
+Column,Plant age,dtype('float64'),,unknown,1023
+Column,Plant age,dtype('float64'),,N/A,1028
+Column,Plant age,dtype('float64'),,unknown,1038
+Column,Plant age,dtype('float64'),,N/A,1047
+Column,Plant age,dtype('float64'),,N/A,1049
+Column,Plant age,dtype('float64'),,N/A,1052
+Column,Plant age,dtype('float64'),,unknown,1060
+Column,Plant age,dtype('float64'),,unknown,1073
+Column,Plant age,dtype('float64'),,unknown,1080
+Column,Plant age,dtype('float64'),,N/A,1094
+Column,Plant age,dtype('float64'),,N/A,1098
+Column,Plant age,dtype('float64'),,unknown,1099
+Column,Plant age,dtype('float64'),,N/A,1111
+Column,Plant age,dtype('float64'),,unknown,1140
+Column,Plant age,dtype('float64'),,N/A,1141
+Column,Plant age,dtype('float64'),,unknown,1143
+Column,Plant age,dtype('float64'),,N/A,1156
+Column,Plant age,dtype('float64'),,unknown,1165
+Column,Plant age,dtype('float64'),,N/A,1170
+Column,Plant age,dtype('float64'),,N/A,1171
+Column,Plant age,dtype('float64'),,unknown,1176
+Column,Plant age,dtype('float64'),,N/A,1178
+Column,Plant age,dtype('float64'),,N/A,1189
+Column,Plant age,dtype('float64'),,unknown,1190
+Column,Plant age,dtype('float64'),,unknown,1196
+Column,Plant age,dtype('float64'),,N/A,1198
+Column,Plant age,dtype('float64'),,unknown,1214
+Column,Plant age,dtype('float64'),,N/A,1225
+Column,Plant age,dtype('float64'),,unknown,1227
+Column,Plant age,dtype('float64'),,N/A,1240
+Column,Plant age,dtype('float64'),,N/A,1241
+Column,Plant age,dtype('float64'),,unknown,1256
+Column,Plant age,dtype('float64'),,N/A,1261
+Column,Plant age,dtype('float64'),,unknown,1290
+Column,production_2024_ttpa,not_nullable,,,0
+Column,production_2024_ttpa,not_nullable,,,1
+Column,production_2024_ttpa,not_nullable,,,3
+Column,production_2024_ttpa,not_nullable,,,8
+Column,production_2024_ttpa,not_nullable,,,12
+Column,production_2024_ttpa,not_nullable,,,13
+Column,production_2024_ttpa,not_nullable,,,14
+Column,production_2024_ttpa,not_nullable,,,15
+Column,production_2024_ttpa,not_nullable,,,16
+Column,production_2024_ttpa,not_nullable,,,20
+Column,production_2024_ttpa,not_nullable,,,22
+Column,production_2024_ttpa,not_nullable,,,23
+Column,production_2024_ttpa,not_nullable,,,24
+Column,production_2024_ttpa,not_nullable,,,25
+Column,production_2024_ttpa,not_nullable,,,26
+Column,production_2024_ttpa,not_nullable,,,30
+Column,production_2024_ttpa,not_nullable,,,31
+Column,production_2024_ttpa,not_nullable,,,33
+Column,production_2024_ttpa,not_nullable,,,34
+Column,production_2024_ttpa,not_nullable,,,35
+Column,production_2024_ttpa,not_nullable,,,36
+Column,production_2024_ttpa,not_nullable,,,38
+Column,production_2024_ttpa,not_nullable,,,39
+Column,production_2024_ttpa,not_nullable,,,43
+Column,production_2024_ttpa,not_nullable,,,44
+Column,production_2024_ttpa,not_nullable,,,46
+Column,production_2024_ttpa,not_nullable,,,48
+Column,production_2024_ttpa,not_nullable,,,50
+Column,production_2024_ttpa,not_nullable,,,51
+Column,production_2024_ttpa,not_nullable,,,52
+Column,production_2024_ttpa,not_nullable,,,53
+Column,production_2024_ttpa,not_nullable,,,54
+Column,production_2024_ttpa,not_nullable,,,55
+Column,production_2024_ttpa,not_nullable,,,56
+Column,production_2024_ttpa,not_nullable,,,57
+Column,production_2024_ttpa,not_nullable,,,58
+Column,production_2024_ttpa,not_nullable,,,59
+Column,production_2024_ttpa,not_nullable,,,60
+Column,production_2024_ttpa,not_nullable,,,61
+Column,production_2024_ttpa,not_nullable,,,62
+Column,production_2024_ttpa,not_nullable,,,64
+Column,production_2024_ttpa,not_nullable,,,69
+Column,production_2024_ttpa,not_nullable,,,71
+Column,production_2024_ttpa,not_nullable,,,79
+Column,production_2024_ttpa,not_nullable,,,86
+Column,production_2024_ttpa,not_nullable,,,91
+Column,production_2024_ttpa,not_nullable,,,92
+Column,production_2024_ttpa,not_nullable,,,94
+Column,production_2024_ttpa,not_nullable,,,95
+Column,production_2024_ttpa,not_nullable,,,103
+Column,production_2024_ttpa,not_nullable,,,107
+Column,production_2024_ttpa,not_nullable,,,109
+Column,production_2024_ttpa,not_nullable,,,111
+Column,production_2024_ttpa,not_nullable,,,112
+Column,production_2024_ttpa,not_nullable,,,113
+Column,production_2024_ttpa,not_nullable,,,114
+Column,production_2024_ttpa,not_nullable,,,116
+Column,production_2024_ttpa,not_nullable,,,117
+Column,production_2024_ttpa,not_nullable,,,118
+Column,production_2024_ttpa,not_nullable,,,121
+Column,production_2024_ttpa,not_nullable,,,122
+Column,production_2024_ttpa,not_nullable,,,123
+Column,production_2024_ttpa,not_nullable,,,125
+Column,production_2024_ttpa,not_nullable,,,126
+Column,production_2024_ttpa,not_nullable,,,129
+Column,production_2024_ttpa,not_nullable,,,130
+Column,production_2024_ttpa,not_nullable,,,131
+Column,production_2024_ttpa,not_nullable,,,132
+Column,production_2024_ttpa,not_nullable,,,134
+Column,production_2024_ttpa,not_nullable,,,135
+Column,production_2024_ttpa,not_nullable,,,136
+Column,production_2024_ttpa,not_nullable,,,137
+Column,production_2024_ttpa,not_nullable,,,138
+Column,production_2024_ttpa,not_nullable,,,139
+Column,production_2024_ttpa,not_nullable,,,140
+Column,production_2024_ttpa,not_nullable,,,142
+Column,production_2024_ttpa,not_nullable,,,143
+Column,production_2024_ttpa,not_nullable,,,145
+Column,production_2024_ttpa,not_nullable,,,147
+Column,production_2024_ttpa,not_nullable,,,148
+Column,production_2024_ttpa,not_nullable,,,149
+Column,production_2024_ttpa,not_nullable,,,150
+Column,production_2024_ttpa,not_nullable,,,151
+Column,production_2024_ttpa,not_nullable,,,152
+Column,production_2024_ttpa,not_nullable,,,153
+Column,production_2024_ttpa,not_nullable,,,154
+Column,production_2024_ttpa,not_nullable,,,155
+Column,production_2024_ttpa,not_nullable,,,156
+Column,production_2024_ttpa,not_nullable,,,157
+Column,production_2024_ttpa,not_nullable,,,159
+Column,production_2024_ttpa,not_nullable,,,161
+Column,production_2024_ttpa,not_nullable,,,162
+Column,production_2024_ttpa,not_nullable,,,164
+Column,production_2024_ttpa,not_nullable,,,165
+Column,production_2024_ttpa,not_nullable,,,166
+Column,production_2024_ttpa,not_nullable,,,167
+Column,production_2024_ttpa,not_nullable,,,169
+Column,production_2024_ttpa,not_nullable,,,170
+Column,production_2024_ttpa,not_nullable,,,172
+Column,production_2024_ttpa,not_nullable,,,178
+Column,production_2024_ttpa,not_nullable,,,179
+Column,production_2024_ttpa,not_nullable,,,180
+Column,production_2024_ttpa,not_nullable,,,181
+Column,production_2024_ttpa,not_nullable,,,182
+Column,production_2024_ttpa,not_nullable,,,183
+Column,production_2024_ttpa,not_nullable,,,184
+Column,production_2024_ttpa,not_nullable,,,185
+Column,production_2024_ttpa,not_nullable,,,186
+Column,production_2024_ttpa,not_nullable,,,187
+Column,production_2024_ttpa,not_nullable,,,188
+Column,production_2024_ttpa,not_nullable,,,190
+Column,production_2024_ttpa,not_nullable,,,191
+Column,production_2024_ttpa,not_nullable,,,192
+Column,production_2024_ttpa,not_nullable,,,193
+Column,production_2024_ttpa,not_nullable,,,194
+Column,production_2024_ttpa,not_nullable,,,195
+Column,production_2024_ttpa,not_nullable,,,196
+Column,production_2024_ttpa,not_nullable,,,197
+Column,production_2024_ttpa,not_nullable,,,199
+Column,production_2024_ttpa,not_nullable,,,200
+Column,production_2024_ttpa,not_nullable,,,202
+Column,production_2024_ttpa,not_nullable,,,203
+Column,production_2024_ttpa,not_nullable,,,204
+Column,production_2024_ttpa,not_nullable,,,205
+Column,production_2024_ttpa,not_nullable,,,206
+Column,production_2024_ttpa,not_nullable,,,207
+Column,production_2024_ttpa,not_nullable,,,219
+Column,production_2024_ttpa,not_nullable,,,220
+Column,production_2024_ttpa,not_nullable,,,221
+Column,production_2024_ttpa,not_nullable,,,222
+Column,production_2024_ttpa,not_nullable,,,223
+Column,production_2024_ttpa,not_nullable,,,224
+Column,production_2024_ttpa,not_nullable,,,225
+Column,production_2024_ttpa,not_nullable,,,226
+Column,production_2024_ttpa,not_nullable,,,227
+Column,production_2024_ttpa,not_nullable,,,228
+Column,production_2024_ttpa,not_nullable,,,229
+Column,production_2024_ttpa,not_nullable,,,231
+Column,production_2024_ttpa,not_nullable,,,232
+Column,production_2024_ttpa,not_nullable,,,233
+Column,production_2024_ttpa,not_nullable,,,235
+Column,production_2024_ttpa,not_nullable,,,236
+Column,production_2024_ttpa,not_nullable,,,237
+Column,production_2024_ttpa,not_nullable,,,238
+Column,production_2024_ttpa,not_nullable,,,239
+Column,production_2024_ttpa,not_nullable,,,242
+Column,production_2024_ttpa,not_nullable,,,244
+Column,production_2024_ttpa,not_nullable,,,246
+Column,production_2024_ttpa,not_nullable,,,250
+Column,production_2024_ttpa,not_nullable,,,251
+Column,production_2024_ttpa,not_nullable,,,252
+Column,production_2024_ttpa,not_nullable,,,253
+Column,production_2024_ttpa,not_nullable,,,254
+Column,production_2024_ttpa,not_nullable,,,255
+Column,production_2024_ttpa,not_nullable,,,256
+Column,production_2024_ttpa,not_nullable,,,259
+Column,production_2024_ttpa,not_nullable,,,260
+Column,production_2024_ttpa,not_nullable,,,261
+Column,production_2024_ttpa,not_nullable,,,263
+Column,production_2024_ttpa,not_nullable,,,264
+Column,production_2024_ttpa,not_nullable,,,266
+Column,production_2024_ttpa,not_nullable,,,268
+Column,production_2024_ttpa,not_nullable,,,269
+Column,production_2024_ttpa,not_nullable,,,270
+Column,production_2024_ttpa,not_nullable,,,271
+Column,production_2024_ttpa,not_nullable,,,272
+Column,production_2024_ttpa,not_nullable,,,273
+Column,production_2024_ttpa,not_nullable,,,274
+Column,production_2024_ttpa,not_nullable,,,275
+Column,production_2024_ttpa,not_nullable,,,276
+Column,production_2024_ttpa,not_nullable,,,277
+Column,production_2024_ttpa,not_nullable,,,278
+Column,production_2024_ttpa,not_nullable,,,280
+Column,production_2024_ttpa,not_nullable,,,282
+Column,production_2024_ttpa,not_nullable,,,284
+Column,production_2024_ttpa,not_nullable,,,286
+Column,production_2024_ttpa,not_nullable,,,289
+Column,production_2024_ttpa,not_nullable,,,290
+Column,production_2024_ttpa,not_nullable,,,291
+Column,production_2024_ttpa,not_nullable,,,292
+Column,production_2024_ttpa,not_nullable,,,293
+Column,production_2024_ttpa,not_nullable,,,294
+Column,production_2024_ttpa,not_nullable,,,295
+Column,production_2024_ttpa,not_nullable,,,299
+Column,production_2024_ttpa,not_nullable,,,302
+Column,production_2024_ttpa,not_nullable,,,304
+Column,production_2024_ttpa,not_nullable,,,305
+Column,production_2024_ttpa,not_nullable,,,306
+Column,production_2024_ttpa,not_nullable,,,308
+Column,production_2024_ttpa,not_nullable,,,309
+Column,production_2024_ttpa,not_nullable,,,310
+Column,production_2024_ttpa,not_nullable,,,311
+Column,production_2024_ttpa,not_nullable,,,312
+Column,production_2024_ttpa,not_nullable,,,315
+Column,production_2024_ttpa,not_nullable,,,318
+Column,production_2024_ttpa,not_nullable,,,319
+Column,production_2024_ttpa,not_nullable,,,320
+Column,production_2024_ttpa,not_nullable,,,322
+Column,production_2024_ttpa,not_nullable,,,323
+Column,production_2024_ttpa,not_nullable,,,324
+Column,production_2024_ttpa,not_nullable,,,325
+Column,production_2024_ttpa,not_nullable,,,327
+Column,production_2024_ttpa,not_nullable,,,328
+Column,production_2024_ttpa,not_nullable,,,329
+Column,production_2024_ttpa,not_nullable,,,330
+Column,production_2024_ttpa,not_nullable,,,332
+Column,production_2024_ttpa,not_nullable,,,333
+Column,production_2024_ttpa,not_nullable,,,334
+Column,production_2024_ttpa,not_nullable,,,335
+Column,production_2024_ttpa,not_nullable,,,336
+Column,production_2024_ttpa,not_nullable,,,337
+Column,production_2024_ttpa,not_nullable,,,338
+Column,production_2024_ttpa,not_nullable,,,341
+Column,production_2024_ttpa,not_nullable,,,344
+Column,production_2024_ttpa,not_nullable,,,358
+Column,production_2024_ttpa,not_nullable,,,362
+Column,production_2024_ttpa,not_nullable,,,366
+Column,production_2024_ttpa,not_nullable,,,367
+Column,production_2024_ttpa,not_nullable,,,369
+Column,production_2024_ttpa,not_nullable,,,370
+Column,production_2024_ttpa,not_nullable,,,372
+Column,production_2024_ttpa,not_nullable,,,373
+Column,production_2024_ttpa,not_nullable,,,377
+Column,production_2024_ttpa,not_nullable,,,378
+Column,production_2024_ttpa,not_nullable,,,379
+Column,production_2024_ttpa,not_nullable,,,381
+Column,production_2024_ttpa,not_nullable,,,382
+Column,production_2024_ttpa,not_nullable,,,383
+Column,production_2024_ttpa,not_nullable,,,384
+Column,production_2024_ttpa,not_nullable,,,385
+Column,production_2024_ttpa,not_nullable,,,387
+Column,production_2024_ttpa,not_nullable,,,388
+Column,production_2024_ttpa,not_nullable,,,389
+Column,production_2024_ttpa,not_nullable,,,392
+Column,production_2024_ttpa,not_nullable,,,393
+Column,production_2024_ttpa,not_nullable,,,394
+Column,production_2024_ttpa,not_nullable,,,395
+Column,production_2024_ttpa,not_nullable,,,396
+Column,production_2024_ttpa,not_nullable,,,397
+Column,production_2024_ttpa,not_nullable,,,398
+Column,production_2024_ttpa,not_nullable,,,399
+Column,production_2024_ttpa,not_nullable,,,400
+Column,production_2024_ttpa,not_nullable,,,401
+Column,production_2024_ttpa,not_nullable,,,402
+Column,production_2024_ttpa,not_nullable,,,403
+Column,production_2024_ttpa,not_nullable,,,404
+Column,production_2024_ttpa,not_nullable,,,405
+Column,production_2024_ttpa,not_nullable,,,406
+Column,production_2024_ttpa,not_nullable,,,407
+Column,production_2024_ttpa,not_nullable,,,409
+Column,production_2024_ttpa,not_nullable,,,410
+Column,production_2024_ttpa,not_nullable,,,412
+Column,production_2024_ttpa,not_nullable,,,414
+Column,production_2024_ttpa,not_nullable,,,415
+Column,production_2024_ttpa,not_nullable,,,416
+Column,production_2024_ttpa,not_nullable,,,417
+Column,production_2024_ttpa,not_nullable,,,418
+Column,production_2024_ttpa,not_nullable,,,419
+Column,production_2024_ttpa,not_nullable,,,420
+Column,production_2024_ttpa,not_nullable,,,421
+Column,production_2024_ttpa,not_nullable,,,422
+Column,production_2024_ttpa,not_nullable,,,423
+Column,production_2024_ttpa,not_nullable,,,424
+Column,production_2024_ttpa,not_nullable,,,425
+Column,production_2024_ttpa,not_nullable,,,426
+Column,production_2024_ttpa,not_nullable,,,427
+Column,production_2024_ttpa,not_nullable,,,428
+Column,production_2024_ttpa,not_nullable,,,429
+Column,production_2024_ttpa,not_nullable,,,430
+Column,production_2024_ttpa,not_nullable,,,431
+Column,production_2024_ttpa,not_nullable,,,432
+Column,production_2024_ttpa,not_nullable,,,433
+Column,production_2024_ttpa,not_nullable,,,434
+Column,production_2024_ttpa,not_nullable,,,435
+Column,production_2024_ttpa,not_nullable,,,436
+Column,production_2024_ttpa,not_nullable,,,438
+Column,production_2024_ttpa,not_nullable,,,439
+Column,production_2024_ttpa,not_nullable,,,440
+Column,production_2024_ttpa,not_nullable,,,441
+Column,production_2024_ttpa,not_nullable,,,442
+Column,production_2024_ttpa,not_nullable,,,443
+Column,production_2024_ttpa,not_nullable,,,444
+Column,production_2024_ttpa,not_nullable,,,445
+Column,production_2024_ttpa,not_nullable,,,448
+Column,production_2024_ttpa,not_nullable,,,449
+Column,production_2024_ttpa,not_nullable,,,450
+Column,production_2024_ttpa,not_nullable,,,451
+Column,production_2024_ttpa,not_nullable,,,452
+Column,production_2024_ttpa,not_nullable,,,454
+Column,production_2024_ttpa,not_nullable,,,455
+Column,production_2024_ttpa,not_nullable,,,456
+Column,production_2024_ttpa,not_nullable,,,457
+Column,production_2024_ttpa,not_nullable,,,458
+Column,production_2024_ttpa,not_nullable,,,459
+Column,production_2024_ttpa,not_nullable,,,460
+Column,production_2024_ttpa,not_nullable,,,461
+Column,production_2024_ttpa,not_nullable,,,464
+Column,production_2024_ttpa,not_nullable,,,465
+Column,production_2024_ttpa,not_nullable,,,466
+Column,production_2024_ttpa,not_nullable,,,467
+Column,production_2024_ttpa,not_nullable,,,468
+Column,production_2024_ttpa,not_nullable,,,470
+Column,production_2024_ttpa,not_nullable,,,471
+Column,production_2024_ttpa,not_nullable,,,472
+Column,production_2024_ttpa,not_nullable,,,474
+Column,production_2024_ttpa,not_nullable,,,475
+Column,production_2024_ttpa,not_nullable,,,476
+Column,production_2024_ttpa,not_nullable,,,478
+Column,production_2024_ttpa,not_nullable,,,479
+Column,production_2024_ttpa,not_nullable,,,482
+Column,production_2024_ttpa,not_nullable,,,483
+Column,production_2024_ttpa,not_nullable,,,484
+Column,production_2024_ttpa,not_nullable,,,485
+Column,production_2024_ttpa,not_nullable,,,486
+Column,production_2024_ttpa,not_nullable,,,487
+Column,production_2024_ttpa,not_nullable,,,488
+Column,production_2024_ttpa,not_nullable,,,489
+Column,production_2024_ttpa,not_nullable,,,491
+Column,production_2024_ttpa,not_nullable,,,492
+Column,production_2024_ttpa,not_nullable,,,493
+Column,production_2024_ttpa,not_nullable,,,494
+Column,production_2024_ttpa,not_nullable,,,495
+Column,production_2024_ttpa,not_nullable,,,496
+Column,production_2024_ttpa,not_nullable,,,497
+Column,production_2024_ttpa,not_nullable,,,500
+Column,production_2024_ttpa,not_nullable,,,501
+Column,production_2024_ttpa,not_nullable,,,502
+Column,production_2024_ttpa,not_nullable,,,503
+Column,production_2024_ttpa,not_nullable,,,504
+Column,production_2024_ttpa,not_nullable,,,505
+Column,production_2024_ttpa,not_nullable,,,506
+Column,production_2024_ttpa,not_nullable,,,507
+Column,production_2024_ttpa,not_nullable,,,508
+Column,production_2024_ttpa,not_nullable,,,509
+Column,production_2024_ttpa,not_nullable,,,510
+Column,production_2024_ttpa,not_nullable,,,511
+Column,production_2024_ttpa,not_nullable,,,512
+Column,production_2024_ttpa,not_nullable,,,513
+Column,production_2024_ttpa,not_nullable,,,514
+Column,production_2024_ttpa,not_nullable,,,517
+Column,production_2024_ttpa,not_nullable,,,518
+Column,production_2024_ttpa,not_nullable,,,519
+Column,production_2024_ttpa,not_nullable,,,520
+Column,production_2024_ttpa,not_nullable,,,521
+Column,production_2024_ttpa,not_nullable,,,524
+Column,production_2024_ttpa,not_nullable,,,527
+Column,production_2024_ttpa,not_nullable,,,530
+Column,production_2024_ttpa,not_nullable,,,532
+Column,production_2024_ttpa,not_nullable,,,533
+Column,production_2024_ttpa,not_nullable,,,534
+Column,production_2024_ttpa,not_nullable,,,535
+Column,production_2024_ttpa,not_nullable,,,537
+Column,production_2024_ttpa,not_nullable,,,538
+Column,production_2024_ttpa,not_nullable,,,541
+Column,production_2024_ttpa,not_nullable,,,542
+Column,production_2024_ttpa,not_nullable,,,546
+Column,production_2024_ttpa,not_nullable,,,547
+Column,production_2024_ttpa,not_nullable,,,557
+Column,production_2024_ttpa,not_nullable,,,558
+Column,production_2024_ttpa,not_nullable,,,559
+Column,production_2024_ttpa,not_nullable,,,560
+Column,production_2024_ttpa,not_nullable,,,561
+Column,production_2024_ttpa,not_nullable,,,562
+Column,production_2024_ttpa,not_nullable,,,563
+Column,production_2024_ttpa,not_nullable,,,565
+Column,production_2024_ttpa,not_nullable,,,566
+Column,production_2024_ttpa,not_nullable,,,567
+Column,production_2024_ttpa,not_nullable,,,568
+Column,production_2024_ttpa,not_nullable,,,569
+Column,production_2024_ttpa,not_nullable,,,570
+Column,production_2024_ttpa,not_nullable,,,571
+Column,production_2024_ttpa,not_nullable,,,572
+Column,production_2024_ttpa,not_nullable,,,573
+Column,production_2024_ttpa,not_nullable,,,577
+Column,production_2024_ttpa,not_nullable,,,578
+Column,production_2024_ttpa,not_nullable,,,579
+Column,production_2024_ttpa,not_nullable,,,580
+Column,production_2024_ttpa,not_nullable,,,581
+Column,production_2024_ttpa,not_nullable,,,582
+Column,production_2024_ttpa,not_nullable,,,583
+Column,production_2024_ttpa,not_nullable,,,584
+Column,production_2024_ttpa,not_nullable,,,587
+Column,production_2024_ttpa,not_nullable,,,589
+Column,production_2024_ttpa,not_nullable,,,590
+Column,production_2024_ttpa,not_nullable,,,591
+Column,production_2024_ttpa,not_nullable,,,592
+Column,production_2024_ttpa,not_nullable,,,594
+Column,production_2024_ttpa,not_nullable,,,596
+Column,production_2024_ttpa,not_nullable,,,597
+Column,production_2024_ttpa,not_nullable,,,598
+Column,production_2024_ttpa,not_nullable,,,599
+Column,production_2024_ttpa,not_nullable,,,600
+Column,production_2024_ttpa,not_nullable,,,601
+Column,production_2024_ttpa,not_nullable,,,602
+Column,production_2024_ttpa,not_nullable,,,603
+Column,production_2024_ttpa,not_nullable,,,604
+Column,production_2024_ttpa,not_nullable,,,605
+Column,production_2024_ttpa,not_nullable,,,607
+Column,production_2024_ttpa,not_nullable,,,608
+Column,production_2024_ttpa,not_nullable,,,609
+Column,production_2024_ttpa,not_nullable,,,611
+Column,production_2024_ttpa,not_nullable,,,612
+Column,production_2024_ttpa,not_nullable,,,613
+Column,production_2024_ttpa,not_nullable,,,615
+Column,production_2024_ttpa,not_nullable,,,616
+Column,production_2024_ttpa,not_nullable,,,617
+Column,production_2024_ttpa,not_nullable,,,622
+Column,production_2024_ttpa,not_nullable,,,624
+Column,production_2024_ttpa,not_nullable,,,625
+Column,production_2024_ttpa,not_nullable,,,626
+Column,production_2024_ttpa,not_nullable,,,627
+Column,production_2024_ttpa,not_nullable,,,628
+Column,production_2024_ttpa,not_nullable,,,629
+Column,production_2024_ttpa,not_nullable,,,630
+Column,production_2024_ttpa,not_nullable,,,632
+Column,production_2024_ttpa,not_nullable,,,636
+Column,production_2024_ttpa,not_nullable,,,637
+Column,production_2024_ttpa,not_nullable,,,639
+Column,production_2024_ttpa,not_nullable,,,640
+Column,production_2024_ttpa,not_nullable,,,641
+Column,production_2024_ttpa,not_nullable,,,642
+Column,production_2024_ttpa,not_nullable,,,643
+Column,production_2024_ttpa,not_nullable,,,645
+Column,production_2024_ttpa,not_nullable,,,646
+Column,production_2024_ttpa,not_nullable,,,647
+Column,production_2024_ttpa,not_nullable,,,648
+Column,production_2024_ttpa,not_nullable,,,650
+Column,production_2024_ttpa,not_nullable,,,651
+Column,production_2024_ttpa,not_nullable,,,652
+Column,production_2024_ttpa,not_nullable,,,653
+Column,production_2024_ttpa,not_nullable,,,654
+Column,production_2024_ttpa,not_nullable,,,655
+Column,production_2024_ttpa,not_nullable,,,656
+Column,production_2024_ttpa,not_nullable,,,657
+Column,production_2024_ttpa,not_nullable,,,658
+Column,production_2024_ttpa,not_nullable,,,659
+Column,production_2024_ttpa,not_nullable,,,661
+Column,production_2024_ttpa,not_nullable,,,662
+Column,production_2024_ttpa,not_nullable,,,663
+Column,production_2024_ttpa,not_nullable,,,664
+Column,production_2024_ttpa,not_nullable,,,665
+Column,production_2024_ttpa,not_nullable,,,666
+Column,production_2024_ttpa,not_nullable,,,670
+Column,production_2024_ttpa,not_nullable,,,671
+Column,production_2024_ttpa,not_nullable,,,672
+Column,production_2024_ttpa,not_nullable,,,673
+Column,production_2024_ttpa,not_nullable,,,674
+Column,production_2024_ttpa,not_nullable,,,676
+Column,production_2024_ttpa,not_nullable,,,677
+Column,production_2024_ttpa,not_nullable,,,678
+Column,production_2024_ttpa,not_nullable,,,680
+Column,production_2024_ttpa,not_nullable,,,681
+Column,production_2024_ttpa,not_nullable,,,682
+Column,production_2024_ttpa,not_nullable,,,684
+Column,production_2024_ttpa,not_nullable,,,685
+Column,production_2024_ttpa,not_nullable,,,686
+Column,production_2024_ttpa,not_nullable,,,687
+Column,production_2024_ttpa,not_nullable,,,688
+Column,production_2024_ttpa,not_nullable,,,689
+Column,production_2024_ttpa,not_nullable,,,690
+Column,production_2024_ttpa,not_nullable,,,691
+Column,production_2024_ttpa,not_nullable,,,692
+Column,production_2024_ttpa,not_nullable,,,693
+Column,production_2024_ttpa,not_nullable,,,694
+Column,production_2024_ttpa,not_nullable,,,695
+Column,production_2024_ttpa,not_nullable,,,696
+Column,production_2024_ttpa,not_nullable,,,697
+Column,production_2024_ttpa,not_nullable,,,698
+Column,production_2024_ttpa,not_nullable,,,699
+Column,production_2024_ttpa,not_nullable,,,700
+Column,production_2024_ttpa,not_nullable,,,701
+Column,production_2024_ttpa,not_nullable,,,703
+Column,production_2024_ttpa,not_nullable,,,705
+Column,production_2024_ttpa,not_nullable,,,707
+Column,production_2024_ttpa,not_nullable,,,708
+Column,production_2024_ttpa,not_nullable,,,711
+Column,production_2024_ttpa,not_nullable,,,713
+Column,production_2024_ttpa,not_nullable,,,715
+Column,production_2024_ttpa,not_nullable,,,716
+Column,production_2024_ttpa,not_nullable,,,718
+Column,production_2024_ttpa,not_nullable,,,719
+Column,production_2024_ttpa,not_nullable,,,721
+Column,production_2024_ttpa,not_nullable,,,722
+Column,production_2024_ttpa,not_nullable,,,723
+Column,production_2024_ttpa,not_nullable,,,724
+Column,production_2024_ttpa,not_nullable,,,725
+Column,production_2024_ttpa,not_nullable,,,726
+Column,production_2024_ttpa,not_nullable,,,727
+Column,production_2024_ttpa,not_nullable,,,728
+Column,production_2024_ttpa,not_nullable,,,730
+Column,production_2024_ttpa,not_nullable,,,734
+Column,production_2024_ttpa,not_nullable,,,736
+Column,production_2024_ttpa,not_nullable,,,739
+Column,production_2024_ttpa,not_nullable,,,740
+Column,production_2024_ttpa,not_nullable,,,741
+Column,production_2024_ttpa,not_nullable,,,742
+Column,production_2024_ttpa,not_nullable,,,743
+Column,production_2024_ttpa,not_nullable,,,746
+Column,production_2024_ttpa,not_nullable,,,747
+Column,production_2024_ttpa,not_nullable,,,748
+Column,production_2024_ttpa,not_nullable,,,749
+Column,production_2024_ttpa,not_nullable,,,750
+Column,production_2024_ttpa,not_nullable,,,751
+Column,production_2024_ttpa,not_nullable,,,752
+Column,production_2024_ttpa,not_nullable,,,755
+Column,production_2024_ttpa,not_nullable,,,757
+Column,production_2024_ttpa,not_nullable,,,761
+Column,production_2024_ttpa,not_nullable,,,762
+Column,production_2024_ttpa,not_nullable,,,764
+Column,production_2024_ttpa,not_nullable,,,765
+Column,production_2024_ttpa,not_nullable,,,766
+Column,production_2024_ttpa,not_nullable,,,767
+Column,production_2024_ttpa,not_nullable,,,768
+Column,production_2024_ttpa,not_nullable,,,769
+Column,production_2024_ttpa,not_nullable,,,770
+Column,production_2024_ttpa,not_nullable,,,772
+Column,production_2024_ttpa,not_nullable,,,782
+Column,production_2024_ttpa,not_nullable,,,789
+Column,production_2024_ttpa,not_nullable,,,790
+Column,production_2024_ttpa,not_nullable,,,794
+Column,production_2024_ttpa,not_nullable,,,796
+Column,production_2024_ttpa,not_nullable,,,797
+Column,production_2024_ttpa,not_nullable,,,798
+Column,production_2024_ttpa,not_nullable,,,810
+Column,production_2024_ttpa,not_nullable,,,811
+Column,production_2024_ttpa,not_nullable,,,814
+Column,production_2024_ttpa,not_nullable,,,818
+Column,production_2024_ttpa,not_nullable,,,821
+Column,production_2024_ttpa,not_nullable,,,823
+Column,production_2024_ttpa,not_nullable,,,825
+Column,production_2024_ttpa,not_nullable,,,827
+Column,production_2024_ttpa,not_nullable,,,828
+Column,production_2024_ttpa,not_nullable,,,829
+Column,production_2024_ttpa,not_nullable,,,831
+Column,production_2024_ttpa,not_nullable,,,832
+Column,production_2024_ttpa,not_nullable,,,833
+Column,production_2024_ttpa,not_nullable,,,834
+Column,production_2024_ttpa,not_nullable,,,835
+Column,production_2024_ttpa,not_nullable,,,836
+Column,production_2024_ttpa,not_nullable,,,837
+Column,production_2024_ttpa,not_nullable,,,838
+Column,production_2024_ttpa,not_nullable,,,839
+Column,production_2024_ttpa,not_nullable,,,841
+Column,production_2024_ttpa,not_nullable,,,842
+Column,production_2024_ttpa,not_nullable,,,843
+Column,production_2024_ttpa,not_nullable,,,844
+Column,production_2024_ttpa,not_nullable,,,845
+Column,production_2024_ttpa,not_nullable,,,846
+Column,production_2024_ttpa,not_nullable,,,848
+Column,production_2024_ttpa,not_nullable,,,849
+Column,production_2024_ttpa,not_nullable,,,850
+Column,production_2024_ttpa,not_nullable,,,851
+Column,production_2024_ttpa,not_nullable,,,852
+Column,production_2024_ttpa,not_nullable,,,853
+Column,production_2024_ttpa,not_nullable,,,854
+Column,production_2024_ttpa,not_nullable,,,855
+Column,production_2024_ttpa,not_nullable,,,857
+Column,production_2024_ttpa,not_nullable,,,859
+Column,production_2024_ttpa,not_nullable,,,862
+Column,production_2024_ttpa,not_nullable,,,863
+Column,production_2024_ttpa,not_nullable,,,864
+Column,production_2024_ttpa,not_nullable,,,865
+Column,production_2024_ttpa,not_nullable,,,866
+Column,production_2024_ttpa,not_nullable,,,867
+Column,production_2024_ttpa,not_nullable,,,870
+Column,production_2024_ttpa,not_nullable,,,871
+Column,production_2024_ttpa,not_nullable,,,873
+Column,production_2024_ttpa,not_nullable,,,874
+Column,production_2024_ttpa,not_nullable,,,876
+Column,production_2024_ttpa,not_nullable,,,877
+Column,production_2024_ttpa,not_nullable,,,878
+Column,production_2024_ttpa,not_nullable,,,879
+Column,production_2024_ttpa,not_nullable,,,881
+Column,production_2024_ttpa,not_nullable,,,882
+Column,production_2024_ttpa,not_nullable,,,883
+Column,production_2024_ttpa,not_nullable,,,884
+Column,production_2024_ttpa,not_nullable,,,885
+Column,production_2024_ttpa,not_nullable,,,886
+Column,production_2024_ttpa,not_nullable,,,887
+Column,production_2024_ttpa,not_nullable,,,888
+Column,production_2024_ttpa,not_nullable,,,889
+Column,production_2024_ttpa,not_nullable,,,891
+Column,production_2024_ttpa,not_nullable,,,892
+Column,production_2024_ttpa,not_nullable,,,893
+Column,production_2024_ttpa,not_nullable,,,894
+Column,production_2024_ttpa,not_nullable,,,895
+Column,production_2024_ttpa,not_nullable,,,896
+Column,production_2024_ttpa,not_nullable,,,897
+Column,production_2024_ttpa,not_nullable,,,898
+Column,production_2024_ttpa,not_nullable,,,899
+Column,production_2024_ttpa,not_nullable,,,900
+Column,production_2024_ttpa,not_nullable,,,902
+Column,production_2024_ttpa,not_nullable,,,903
+Column,production_2024_ttpa,not_nullable,,,904
+Column,production_2024_ttpa,not_nullable,,,905
+Column,production_2024_ttpa,not_nullable,,,906
+Column,production_2024_ttpa,not_nullable,,,907
+Column,production_2024_ttpa,not_nullable,,,910
+Column,production_2024_ttpa,not_nullable,,,912
+Column,production_2024_ttpa,not_nullable,,,913
+Column,production_2024_ttpa,not_nullable,,,919
+Column,production_2024_ttpa,not_nullable,,,920
+Column,production_2024_ttpa,not_nullable,,,923
+Column,production_2024_ttpa,not_nullable,,,924
+Column,production_2024_ttpa,not_nullable,,,925
+Column,production_2024_ttpa,not_nullable,,,926
+Column,production_2024_ttpa,not_nullable,,,931
+Column,production_2024_ttpa,not_nullable,,,932
+Column,production_2024_ttpa,not_nullable,,,935
+Column,production_2024_ttpa,not_nullable,,,936
+Column,production_2024_ttpa,not_nullable,,,937
+Column,production_2024_ttpa,not_nullable,,,938
+Column,production_2024_ttpa,not_nullable,,,940
+Column,production_2024_ttpa,not_nullable,,,941
+Column,production_2024_ttpa,not_nullable,,,943
+Column,production_2024_ttpa,not_nullable,,,944
+Column,production_2024_ttpa,not_nullable,,,945
+Column,production_2024_ttpa,not_nullable,,,946
+Column,production_2024_ttpa,not_nullable,,,947
+Column,production_2024_ttpa,not_nullable,,,948
+Column,production_2024_ttpa,not_nullable,,,949
+Column,production_2024_ttpa,not_nullable,,,950
+Column,production_2024_ttpa,not_nullable,,,951
+Column,production_2024_ttpa,not_nullable,,,952
+Column,production_2024_ttpa,not_nullable,,,953
+Column,production_2024_ttpa,not_nullable,,,954
+Column,production_2024_ttpa,not_nullable,,,955
+Column,production_2024_ttpa,not_nullable,,,956
+Column,production_2024_ttpa,not_nullable,,,957
+Column,production_2024_ttpa,not_nullable,,,958
+Column,production_2024_ttpa,not_nullable,,,959
+Column,production_2024_ttpa,not_nullable,,,960
+Column,production_2024_ttpa,not_nullable,,,961
+Column,production_2024_ttpa,not_nullable,,,962
+Column,production_2024_ttpa,not_nullable,,,963
+Column,production_2024_ttpa,not_nullable,,,964
+Column,production_2024_ttpa,not_nullable,,,965
+Column,production_2024_ttpa,not_nullable,,,966
+Column,production_2024_ttpa,not_nullable,,,967
+Column,production_2024_ttpa,not_nullable,,,968
+Column,production_2024_ttpa,not_nullable,,,969
+Column,production_2024_ttpa,not_nullable,,,970
+Column,production_2024_ttpa,not_nullable,,,971
+Column,production_2024_ttpa,not_nullable,,,972
+Column,production_2024_ttpa,not_nullable,,,973
+Column,production_2024_ttpa,not_nullable,,,975
+Column,production_2024_ttpa,not_nullable,,,976
+Column,production_2024_ttpa,not_nullable,,,977
+Column,production_2024_ttpa,not_nullable,,,978
+Column,production_2024_ttpa,not_nullable,,,979
+Column,production_2024_ttpa,not_nullable,,,980
+Column,production_2024_ttpa,not_nullable,,,981
+Column,production_2024_ttpa,not_nullable,,,982
+Column,production_2024_ttpa,not_nullable,,,983
+Column,production_2024_ttpa,not_nullable,,,984
+Column,production_2024_ttpa,not_nullable,,,985
+Column,production_2024_ttpa,not_nullable,,,986
+Column,production_2024_ttpa,not_nullable,,,987
+Column,production_2024_ttpa,not_nullable,,,988
+Column,production_2024_ttpa,not_nullable,,,989
+Column,production_2024_ttpa,not_nullable,,,990
+Column,production_2024_ttpa,not_nullable,,,991
+Column,production_2024_ttpa,not_nullable,,,992
+Column,production_2024_ttpa,not_nullable,,,993
+Column,production_2024_ttpa,not_nullable,,,994
+Column,production_2024_ttpa,not_nullable,,,995
+Column,production_2024_ttpa,not_nullable,,,996
+Column,production_2024_ttpa,not_nullable,,,997
+Column,production_2024_ttpa,not_nullable,,,998
+Column,production_2024_ttpa,not_nullable,,,999
+Column,production_2024_ttpa,not_nullable,,,1000
+Column,production_2024_ttpa,not_nullable,,,1001
+Column,production_2024_ttpa,not_nullable,,,1003
+Column,production_2024_ttpa,not_nullable,,,1004
+Column,production_2024_ttpa,not_nullable,,,1006
+Column,production_2024_ttpa,not_nullable,,,1007
+Column,production_2024_ttpa,not_nullable,,,1008
+Column,production_2024_ttpa,not_nullable,,,1009
+Column,production_2024_ttpa,not_nullable,,,1010
+Column,production_2024_ttpa,not_nullable,,,1011
+Column,production_2024_ttpa,not_nullable,,,1013
+Column,production_2024_ttpa,not_nullable,,,1014
+Column,production_2024_ttpa,not_nullable,,,1019
+Column,production_2024_ttpa,not_nullable,,,1021
+Column,production_2024_ttpa,not_nullable,,,1023
+Column,production_2024_ttpa,not_nullable,,,1024
+Column,production_2024_ttpa,not_nullable,,,1025
+Column,production_2024_ttpa,not_nullable,,,1026
+Column,production_2024_ttpa,not_nullable,,,1027
+Column,production_2024_ttpa,not_nullable,,,1028
+Column,production_2024_ttpa,not_nullable,,,1029
+Column,production_2024_ttpa,not_nullable,,,1030
+Column,production_2024_ttpa,not_nullable,,,1036
+Column,production_2024_ttpa,not_nullable,,,1037
+Column,production_2024_ttpa,not_nullable,,,1038
+Column,production_2024_ttpa,not_nullable,,,1039
+Column,production_2024_ttpa,not_nullable,,,1046
+Column,production_2024_ttpa,not_nullable,,,1047
+Column,production_2024_ttpa,not_nullable,,,1048
+Column,production_2024_ttpa,not_nullable,,,1049
+Column,production_2024_ttpa,not_nullable,,,1050
+Column,production_2024_ttpa,not_nullable,,,1051
+Column,production_2024_ttpa,not_nullable,,,1052
+Column,production_2024_ttpa,not_nullable,,,1053
+Column,production_2024_ttpa,not_nullable,,,1057
+Column,production_2024_ttpa,not_nullable,,,1059
+Column,production_2024_ttpa,not_nullable,,,1060
+Column,production_2024_ttpa,not_nullable,,,1061
+Column,production_2024_ttpa,not_nullable,,,1062
+Column,production_2024_ttpa,not_nullable,,,1064
+Column,production_2024_ttpa,not_nullable,,,1065
+Column,production_2024_ttpa,not_nullable,,,1068
+Column,production_2024_ttpa,not_nullable,,,1070
+Column,production_2024_ttpa,not_nullable,,,1072
+Column,production_2024_ttpa,not_nullable,,,1073
+Column,production_2024_ttpa,not_nullable,,,1074
+Column,production_2024_ttpa,not_nullable,,,1077
+Column,production_2024_ttpa,not_nullable,,,1078
+Column,production_2024_ttpa,not_nullable,,,1079
+Column,production_2024_ttpa,not_nullable,,,1080
+Column,production_2024_ttpa,not_nullable,,,1081
+Column,production_2024_ttpa,not_nullable,,,1082
+Column,production_2024_ttpa,not_nullable,,,1083
+Column,production_2024_ttpa,not_nullable,,,1084
+Column,production_2024_ttpa,not_nullable,,,1085
+Column,production_2024_ttpa,not_nullable,,,1086
+Column,production_2024_ttpa,not_nullable,,,1087
+Column,production_2024_ttpa,not_nullable,,,1094
+Column,production_2024_ttpa,not_nullable,,,1098
+Column,production_2024_ttpa,not_nullable,,,1099
+Column,production_2024_ttpa,not_nullable,,,1100
+Column,production_2024_ttpa,not_nullable,,,1101
+Column,production_2024_ttpa,not_nullable,,,1102
+Column,production_2024_ttpa,not_nullable,,,1108
+Column,production_2024_ttpa,not_nullable,,,1111
+Column,production_2024_ttpa,not_nullable,,,1112
+Column,production_2024_ttpa,not_nullable,,,1113
+Column,production_2024_ttpa,not_nullable,,,1114
+Column,production_2024_ttpa,not_nullable,,,1115
+Column,production_2024_ttpa,not_nullable,,,1117
+Column,production_2024_ttpa,not_nullable,,,1119
+Column,production_2024_ttpa,not_nullable,,,1120
+Column,production_2024_ttpa,not_nullable,,,1121
+Column,production_2024_ttpa,not_nullable,,,1122
+Column,production_2024_ttpa,not_nullable,,,1123
+Column,production_2024_ttpa,not_nullable,,,1124
+Column,production_2024_ttpa,not_nullable,,,1132
+Column,production_2024_ttpa,not_nullable,,,1133
+Column,production_2024_ttpa,not_nullable,,,1134
+Column,production_2024_ttpa,not_nullable,,,1135
+Column,production_2024_ttpa,not_nullable,,,1136
+Column,production_2024_ttpa,not_nullable,,,1137
+Column,production_2024_ttpa,not_nullable,,,1138
+Column,production_2024_ttpa,not_nullable,,,1139
+Column,production_2024_ttpa,not_nullable,,,1140
+Column,production_2024_ttpa,not_nullable,,,1141
+Column,production_2024_ttpa,not_nullable,,,1142
+Column,production_2024_ttpa,not_nullable,,,1143
+Column,production_2024_ttpa,not_nullable,,,1144
+Column,production_2024_ttpa,not_nullable,,,1145
+Column,production_2024_ttpa,not_nullable,,,1146
+Column,production_2024_ttpa,not_nullable,,,1147
+Column,production_2024_ttpa,not_nullable,,,1148
+Column,production_2024_ttpa,not_nullable,,,1150
+Column,production_2024_ttpa,not_nullable,,,1152
+Column,production_2024_ttpa,not_nullable,,,1156
+Column,production_2024_ttpa,not_nullable,,,1163
+Column,production_2024_ttpa,not_nullable,,,1164
+Column,production_2024_ttpa,not_nullable,,,1165
+Column,production_2024_ttpa,not_nullable,,,1166
+Column,production_2024_ttpa,not_nullable,,,1168
+Column,production_2024_ttpa,not_nullable,,,1170
+Column,production_2024_ttpa,not_nullable,,,1171
+Column,production_2024_ttpa,not_nullable,,,1173
+Column,production_2024_ttpa,not_nullable,,,1176
+Column,production_2024_ttpa,not_nullable,,,1177
+Column,production_2024_ttpa,not_nullable,,,1178
+Column,production_2024_ttpa,not_nullable,,,1179
+Column,production_2024_ttpa,not_nullable,,,1180
+Column,production_2024_ttpa,not_nullable,,,1181
+Column,production_2024_ttpa,not_nullable,,,1182
+Column,production_2024_ttpa,not_nullable,,,1183
+Column,production_2024_ttpa,not_nullable,,,1184
+Column,production_2024_ttpa,not_nullable,,,1185
+Column,production_2024_ttpa,not_nullable,,,1187
+Column,production_2024_ttpa,not_nullable,,,1188
+Column,production_2024_ttpa,not_nullable,,,1189
+Column,production_2024_ttpa,not_nullable,,,1190
+Column,production_2024_ttpa,not_nullable,,,1192
+Column,production_2024_ttpa,not_nullable,,,1195
+Column,production_2024_ttpa,not_nullable,,,1196
+Column,production_2024_ttpa,not_nullable,,,1197
+Column,production_2024_ttpa,not_nullable,,,1198
+Column,production_2024_ttpa,not_nullable,,,1200
+Column,production_2024_ttpa,not_nullable,,,1201
+Column,production_2024_ttpa,not_nullable,,,1202
+Column,production_2024_ttpa,not_nullable,,,1203
+Column,production_2024_ttpa,not_nullable,,,1204
+Column,production_2024_ttpa,not_nullable,,,1205
+Column,production_2024_ttpa,not_nullable,,,1206
+Column,production_2024_ttpa,not_nullable,,,1207
+Column,production_2024_ttpa,not_nullable,,,1210
+Column,production_2024_ttpa,not_nullable,,,1211
+Column,production_2024_ttpa,not_nullable,,,1212
+Column,production_2024_ttpa,not_nullable,,,1214
+Column,production_2024_ttpa,not_nullable,,,1215
+Column,production_2024_ttpa,not_nullable,,,1216
+Column,production_2024_ttpa,not_nullable,,,1217
+Column,production_2024_ttpa,not_nullable,,,1218
+Column,production_2024_ttpa,not_nullable,,,1219
+Column,production_2024_ttpa,not_nullable,,,1221
+Column,production_2024_ttpa,not_nullable,,,1222
+Column,production_2024_ttpa,not_nullable,,,1223
+Column,production_2024_ttpa,not_nullable,,,1224
+Column,production_2024_ttpa,not_nullable,,,1225
+Column,production_2024_ttpa,not_nullable,,,1227
+Column,production_2024_ttpa,not_nullable,,,1229
+Column,production_2024_ttpa,not_nullable,,,1231
+Column,production_2024_ttpa,not_nullable,,,1232
+Column,production_2024_ttpa,not_nullable,,,1233
+Column,production_2024_ttpa,not_nullable,,,1234
+Column,production_2024_ttpa,not_nullable,,,1235
+Column,production_2024_ttpa,not_nullable,,,1236
+Column,production_2024_ttpa,not_nullable,,,1237
+Column,production_2024_ttpa,not_nullable,,,1239
+Column,production_2024_ttpa,not_nullable,,,1240
+Column,production_2024_ttpa,not_nullable,,,1241
+Column,production_2024_ttpa,not_nullable,,,1243
+Column,production_2024_ttpa,not_nullable,,,1244
+Column,production_2024_ttpa,not_nullable,,,1245
+Column,production_2024_ttpa,not_nullable,,,1249
+Column,production_2024_ttpa,not_nullable,,,1250
+Column,production_2024_ttpa,not_nullable,,,1251
+Column,production_2024_ttpa,not_nullable,,,1252
+Column,production_2024_ttpa,not_nullable,,,1253
+Column,production_2024_ttpa,not_nullable,,,1255
+Column,production_2024_ttpa,not_nullable,,,1256
+Column,production_2024_ttpa,not_nullable,,,1258
+Column,production_2024_ttpa,not_nullable,,,1259
+Column,production_2024_ttpa,not_nullable,,,1261
+Column,production_2024_ttpa,not_nullable,,,1262
+Column,production_2024_ttpa,not_nullable,,,1263
+Column,production_2024_ttpa,not_nullable,,,1264
+Column,production_2024_ttpa,not_nullable,,,1265
+Column,production_2024_ttpa,not_nullable,,,1266
+Column,production_2024_ttpa,not_nullable,,,1267
+Column,production_2024_ttpa,not_nullable,,,1268
+Column,production_2024_ttpa,not_nullable,,,1269
+Column,production_2024_ttpa,not_nullable,,,1270
+Column,production_2024_ttpa,not_nullable,,,1272
+Column,production_2024_ttpa,not_nullable,,,1273
+Column,production_2024_ttpa,not_nullable,,,1274
+Column,production_2024_ttpa,not_nullable,,,1275
+Column,production_2024_ttpa,not_nullable,,,1276
+Column,production_2024_ttpa,not_nullable,,,1277
+Column,production_2024_ttpa,not_nullable,,,1278
+Column,production_2024_ttpa,not_nullable,,,1279
+Column,production_2024_ttpa,not_nullable,,,1280
+Column,production_2024_ttpa,not_nullable,,,1281
+Column,production_2024_ttpa,not_nullable,,,1282
+Column,production_2024_ttpa,not_nullable,,,1283
+Column,production_2024_ttpa,not_nullable,,,1285
+Column,production_2024_ttpa,not_nullable,,,1286
+Column,production_2024_ttpa,not_nullable,,,1287
+Column,production_2024_ttpa,not_nullable,,,1288
+Column,production_2024_ttpa,not_nullable,,,1289
+Column,production_2024_ttpa,not_nullable,,,1290
+Column,production_2024_ttpa,not_nullable,,,1291
+Column,production_2024_ttpa,not_nullable,,,1292
+Column,production_2024_ttpa,dtype('float64'),,unknown,2
+Column,production_2024_ttpa,dtype('float64'),,unknown,5
+Column,production_2024_ttpa,dtype('float64'),,unknown,6
+Column,production_2024_ttpa,dtype('float64'),,unknown,7
+Column,production_2024_ttpa,dtype('float64'),,unknown,19
+Column,production_2024_ttpa,dtype('float64'),,unknown,27
+Column,production_2024_ttpa,dtype('float64'),,unknown,28
+Column,production_2024_ttpa,dtype('float64'),,unknown,29
+Column,production_2024_ttpa,dtype('float64'),,unknown,37
+Column,production_2024_ttpa,dtype('float64'),,unknown,42
+Column,production_2024_ttpa,dtype('float64'),,unknown,45
+Column,production_2024_ttpa,dtype('float64'),,unknown,47
+Column,production_2024_ttpa,dtype('float64'),,unknown,49
+Column,production_2024_ttpa,dtype('float64'),,unknown,76
+Column,production_2024_ttpa,dtype('float64'),,unknown,83
+Column,production_2024_ttpa,dtype('float64'),,unknown,87
+Column,production_2024_ttpa,dtype('float64'),,unknown,100
+Column,production_2024_ttpa,dtype('float64'),,unknown,108
+Column,production_2024_ttpa,dtype('float64'),,unknown,124
+Column,production_2024_ttpa,dtype('float64'),,unknown,133
+Column,production_2024_ttpa,dtype('float64'),,unknown,141
+Column,production_2024_ttpa,dtype('float64'),,unknown,146
+Column,production_2024_ttpa,dtype('float64'),,unknown,168
+Column,production_2024_ttpa,dtype('float64'),,unknown,189
+Column,production_2024_ttpa,dtype('float64'),,unknown,198
+Column,production_2024_ttpa,dtype('float64'),,unknown,241
+Column,production_2024_ttpa,dtype('float64'),,unknown,243
+Column,production_2024_ttpa,dtype('float64'),,unknown,245
+Column,production_2024_ttpa,dtype('float64'),,unknown,247
+Column,production_2024_ttpa,dtype('float64'),,unknown,258
+Column,production_2024_ttpa,dtype('float64'),,unknown,262
+Column,production_2024_ttpa,dtype('float64'),,unknown,267
+Column,production_2024_ttpa,dtype('float64'),,unknown,288
+Column,production_2024_ttpa,dtype('float64'),,unknown,297
+Column,production_2024_ttpa,dtype('float64'),,unknown,298
+Column,production_2024_ttpa,dtype('float64'),,unknown,300
+Column,production_2024_ttpa,dtype('float64'),,unknown,301
+Column,production_2024_ttpa,dtype('float64'),,unknown,303
+Column,production_2024_ttpa,dtype('float64'),,unknown,307
+Column,production_2024_ttpa,dtype('float64'),,unknown,317
+Column,production_2024_ttpa,dtype('float64'),,unknown,321
+Column,production_2024_ttpa,dtype('float64'),,unknown,326
+Column,production_2024_ttpa,dtype('float64'),,unknown,331
+Column,production_2024_ttpa,dtype('float64'),,unknown,339
+Column,production_2024_ttpa,dtype('float64'),,unknown,342
+Column,production_2024_ttpa,dtype('float64'),,unknown,352
+Column,production_2024_ttpa,dtype('float64'),,unknown,364
+Column,production_2024_ttpa,dtype('float64'),,unknown,365
+Column,production_2024_ttpa,dtype('float64'),,unknown,368
+Column,production_2024_ttpa,dtype('float64'),,unknown,371
+Column,production_2024_ttpa,dtype('float64'),,unknown,374
+Column,production_2024_ttpa,dtype('float64'),,unknown,375
+Column,production_2024_ttpa,dtype('float64'),,unknown,376
+Column,production_2024_ttpa,dtype('float64'),,unknown,380
+Column,production_2024_ttpa,dtype('float64'),,unknown,411
+Column,production_2024_ttpa,dtype('float64'),,unknown,413
+Column,production_2024_ttpa,dtype('float64'),,unknown,453
+Column,production_2024_ttpa,dtype('float64'),,unknown,462
+Column,production_2024_ttpa,dtype('float64'),,unknown,463
+Column,production_2024_ttpa,dtype('float64'),,unknown,469
+Column,production_2024_ttpa,dtype('float64'),,unknown,473
+Column,production_2024_ttpa,dtype('float64'),,unknown,477
+Column,production_2024_ttpa,dtype('float64'),,unknown,480
+Column,production_2024_ttpa,dtype('float64'),,unknown,481
+Column,production_2024_ttpa,dtype('float64'),,unknown,490
+Column,production_2024_ttpa,dtype('float64'),,unknown,498
+Column,production_2024_ttpa,dtype('float64'),,unknown,499
+Column,production_2024_ttpa,dtype('float64'),,unknown,515
+Column,production_2024_ttpa,dtype('float64'),,unknown,526
+Column,production_2024_ttpa,dtype('float64'),,unknown,528
+Column,production_2024_ttpa,dtype('float64'),,unknown,543
+Column,production_2024_ttpa,dtype('float64'),,unknown,544
+Column,production_2024_ttpa,dtype('float64'),,unknown,545
+Column,production_2024_ttpa,dtype('float64'),,unknown,553
+Column,production_2024_ttpa,dtype('float64'),,unknown,564
+Column,production_2024_ttpa,dtype('float64'),,unknown,574
+Column,production_2024_ttpa,dtype('float64'),,unknown,575
+Column,production_2024_ttpa,dtype('float64'),,unknown,576
+Column,production_2024_ttpa,dtype('float64'),,unknown,595
+Column,production_2024_ttpa,dtype('float64'),,unknown,631
+Column,production_2024_ttpa,dtype('float64'),,unknown,634
+Column,production_2024_ttpa,dtype('float64'),,unknown,635
+Column,production_2024_ttpa,dtype('float64'),,unknown,638
+Column,production_2024_ttpa,dtype('float64'),,unknown,660
+Column,production_2024_ttpa,dtype('float64'),,unknown,669
+Column,production_2024_ttpa,dtype('float64'),,unknown,675
+Column,production_2024_ttpa,dtype('float64'),,unknown,710
+Column,production_2024_ttpa,dtype('float64'),,unknown,714
+Column,production_2024_ttpa,dtype('float64'),,unknown,720
+Column,production_2024_ttpa,dtype('float64'),,unknown,733
+Column,production_2024_ttpa,dtype('float64'),,unknown,735
+Column,production_2024_ttpa,dtype('float64'),,unknown,738
+Column,production_2024_ttpa,dtype('float64'),,unknown,744
+Column,production_2024_ttpa,dtype('float64'),,unknown,745
+Column,production_2024_ttpa,dtype('float64'),,unknown,756
+Column,production_2024_ttpa,dtype('float64'),,unknown,760
+Column,production_2024_ttpa,dtype('float64'),,unknown,771
+Column,production_2024_ttpa,dtype('float64'),,unknown,773
+Column,production_2024_ttpa,dtype('float64'),,unknown,778
+Column,production_2024_ttpa,dtype('float64'),,unknown,781
+Column,production_2024_ttpa,dtype('float64'),,unknown,784
+Column,production_2024_ttpa,dtype('float64'),,unknown,787
+Column,production_2024_ttpa,dtype('float64'),,unknown,795
+Column,production_2024_ttpa,dtype('float64'),,unknown,820
+Column,production_2024_ttpa,dtype('float64'),,unknown,822
+Column,production_2024_ttpa,dtype('float64'),,unknown,824
+Column,production_2024_ttpa,dtype('float64'),,unknown,826
+Column,production_2024_ttpa,dtype('float64'),,unknown,830
+Column,production_2024_ttpa,dtype('float64'),,unknown,840
+Column,production_2024_ttpa,dtype('float64'),,unknown,858
+Column,production_2024_ttpa,dtype('float64'),,unknown,868
+Column,production_2024_ttpa,dtype('float64'),,unknown,869
+Column,production_2024_ttpa,dtype('float64'),,unknown,875
+Column,production_2024_ttpa,dtype('float64'),,unknown,880
+Column,production_2024_ttpa,dtype('float64'),,unknown,901
+Column,production_2024_ttpa,dtype('float64'),,unknown,908
+Column,production_2024_ttpa,dtype('float64'),,unknown,911
+Column,production_2024_ttpa,dtype('float64'),,unknown,914
+Column,production_2024_ttpa,dtype('float64'),,unknown,930
+Column,production_2024_ttpa,dtype('float64'),,unknown,939
+Column,production_2024_ttpa,dtype('float64'),,unknown,942
+Column,production_2024_ttpa,dtype('float64'),,unknown,974
+Column,production_2024_ttpa,dtype('float64'),,unknown,1002
+Column,production_2024_ttpa,dtype('float64'),,unknown,1005
+Column,production_2024_ttpa,dtype('float64'),,unknown,1012
+Column,production_2024_ttpa,dtype('float64'),,unknown,1022
+Column,production_2024_ttpa,dtype('float64'),,unknown,1035
+Column,production_2024_ttpa,dtype('float64'),,unknown,1055
+Column,production_2024_ttpa,dtype('float64'),,unknown,1063
+Column,production_2024_ttpa,dtype('float64'),,unknown,1066
+Column,production_2024_ttpa,dtype('float64'),,unknown,1067
+Column,production_2024_ttpa,dtype('float64'),,unknown,1069
+Column,production_2024_ttpa,dtype('float64'),,unknown,1071
+Column,production_2024_ttpa,dtype('float64'),,unknown,1075
+Column,production_2024_ttpa,dtype('float64'),,unknown,1076
+Column,production_2024_ttpa,dtype('float64'),,unknown,1088
+Column,production_2024_ttpa,dtype('float64'),,unknown,1097
+Column,production_2024_ttpa,dtype('float64'),,unknown,1116
+Column,production_2024_ttpa,dtype('float64'),,unknown,1118
+Column,production_2024_ttpa,dtype('float64'),,unknown,1125
+Column,production_2024_ttpa,dtype('float64'),,unknown,1126
+Column,production_2024_ttpa,dtype('float64'),,unknown,1131
+Column,production_2024_ttpa,dtype('float64'),,unknown,1160
+Column,production_2024_ttpa,dtype('float64'),,unknown,1161
+Column,production_2024_ttpa,dtype('float64'),,unknown,1162
+Column,production_2024_ttpa,dtype('float64'),,unknown,1167
+Column,production_2024_ttpa,dtype('float64'),,unknown,1175
+Column,production_2024_ttpa,dtype('float64'),,unknown,1186
+Column,production_2024_ttpa,dtype('float64'),,unknown,1191
+Column,production_2024_ttpa,dtype('float64'),,unknown,1199
+Column,production_2024_ttpa,dtype('float64'),,unknown,1208
+Column,production_2024_ttpa,dtype('float64'),,unknown,1209
+Column,production_2024_ttpa,dtype('float64'),,unknown,1213
+Column,production_2024_ttpa,dtype('float64'),,unknown,1220
+Column,production_2024_ttpa,dtype('float64'),,unknown,1226
+Column,production_2024_ttpa,dtype('float64'),,unknown,1228
+Column,production_2024_ttpa,dtype('float64'),,unknown,1230
+Column,production_2024_ttpa,dtype('float64'),,unknown,1238
+Column,production_2024_ttpa,dtype('float64'),,unknown,1242
+Column,production_2024_ttpa,dtype('float64'),,unknown,1246
+Column,production_2024_ttpa,dtype('float64'),,unknown,1247
+Column,production_2024_ttpa,dtype('float64'),,unknown,1248
+Column,production_2024_ttpa,dtype('float64'),,unknown,1254
+Column,production_2024_ttpa,dtype('float64'),,unknown,1257
+Column,production_2024_ttpa,dtype('float64'),,unknown,1260
+Column,production_2024_ttpa,dtype('float64'),,unknown,1271
+Column,production_2024_ttpa,dtype('float64'),,unknown,1284
+Column,Nominal crude steel capacity (ttpa) [operating],greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Nominal crude steel capacity (ttpa) [operating pre-retirement],greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Nominal iron capacity (ttpa) [operating],greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Nominal iron capacity (ttpa) [operating pre-retirement],greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Nominal EAF steel capacity (ttpa) [operating],greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Nominal EAF steel capacity (ttpa) [operating pre-retirement],greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Workforce size,greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,Plant age,greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",
+Column,production_2024_ttpa,greater_than_or_equal_to(0),0,"TypeError(""'>=' not supported between instances of 'str' and 'int'"")",

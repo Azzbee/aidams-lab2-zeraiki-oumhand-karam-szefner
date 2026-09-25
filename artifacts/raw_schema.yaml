@@ -1,0 +1,111 @@
+schema_type: dataframe
+api: pandas
+columns:
+  Nominal crude steel capacity (ttpa) [operating]:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Nominal crude steel capacity (ttpa) [operating pre-retirement]:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Nominal iron capacity (ttpa) [operating]:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Nominal iron capacity (ttpa) [operating pre-retirement]:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Nominal EAF steel capacity (ttpa) [operating]:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Nominal EAF steel capacity (ttpa) [operating pre-retirement]:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Workforce size:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  Plant age:
+    dtype: float64
+    nullable: true
+    greater_than_or_equal_to: 0
+  production_2024_ttpa:
+    dtype: float64
+    greater_than_or_equal_to: 0
+  GEM plant ID:
+    dtype: string[pyarrow]
+    unique: true
+  Country/area:
+    dtype: string[pyarrow]
+  Main production equipment:
+    dtype: string[pyarrow]
+  Capacity statuses:
+    dtype: string[pyarrow]
+    isin:
+    - operating
+    - construction
+    - announced; mothballed pre-retirement; operating pre-retirement; retired
+    - announced; operating
+    - mothballed; operating
+    - construction; operating
+    - construction; operating pre-retirement
+    - announced; construction; mothballed; operating pre-retirement
+    - announced
+    - cancelled
+    - mothballed; operating; retired
+    - construction; operating; retired
+    - retired
+    - mothballed
+    - cancelled; operating
+    - cancelled; mothballed; operating
+    - operating; retired
+    - announced; operating; retired
+    - operating; operating pre-retirement; retired
+    - announced; construction; operating; operating pre-retirement
+    - announced; mothballed; operating; operating pre-retirement; retired
+    - announced; operating pre-retirement
+    - announced; cancelled; mothballed; operating
+    - operating; operating pre-retirement
+    - announced; mothballed; operating; operating pre-retirement
+    - cancelled; retired
+    - announced; construction
+    - announced; construction; operating
+    - announced; operating; operating pre-retirement; retired
+    - construction; retired
+    - mothballed; operating; operating pre-retirement
+    - cancelled; mothballed pre-retirement; operating pre-retirement
+    - announced; operating; operating pre-retirement
+    - announced; construction; mothballed; operating
+    - announced; mothballed
+    - cancelled; construction; operating; operating pre-retirement; retired
+    - mothballed; retired
+    - announced; mothballed pre-retirement
+    - operating pre-retirement
+    - announced; cancelled; mothballed; operating; operating pre-retirement
+    - construction; operating; operating pre-retirement
+    - announced; mothballed; operating
+    - construction; operating; operating pre-retirement; retired
+    - operating pre-retirement; retired
+    - cancelled; operating; retired
+    - announced; cancelled; operating
+    - announced; construction; operating pre-retirement; retired
+    - announced; construction; operating; retired
+    - announced; retired
+    - cancelled; construction; operating
+    - announced; construction; operating; operating pre-retirement; retired
+    - announced; cancelled; construction; operating
+    - announced; mothballed; operating; retired
+    - announced; construction; operating pre-retirement
+    - announced; cancelled; operating; operating pre-retirement
+    - cancelled; mothballed pre-retirement
+    - construction; mothballed; operating; operating pre-retirement
+    - announced; mothballed; mothballed pre-retirement
+    - cancelled; construction; operating pre-retirement
+    - cancelled; mothballed
+    - announced; cancelled; operating; operating pre-retirement; retired
+    - construction; operating pre-retirement; retired
+    - cancelled; construction; operating; retired

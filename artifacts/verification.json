@@ -1,0 +1,25 @@
+{
+  "executed_code_cells": 16,
+  "notebook_error_outputs": 0,
+  "completed_reflection_answers": 16,
+  "pytest": "7 passed",
+  "strict_type_check": "Passed on extracted notebook and 3 supporting Python files",
+  "lint": "Passed",
+  "format": "Black check passed",
+  "notebook_schema_validation": "Passed",
+  "model_and_data_checksums": "Verified",
+  "latest_execution_mlflow_runs": 33,
+  "latest_study_completed_trials": 30,
+  "saved_pipeline_prediction_parity": "Passed, absolute tolerance 1e-10",
+  "visual_review": "Correlation, target distribution and final diagnostic plots inspected",
+  "independent_review": "No remaining substantive findings",
+  "build": "Not applicable: notebook project",
+  "required_lab_exercises": "Complete",
+  "optional_TabFM_bonus": "Omitted",
+  "student_submission_details": "All names and student IDs supplied. Adam Zeraiki is submitter. Public repository URL recorded. Submission email prepared, not sent.",
+  "model_metrics": {
+    "RMSE": 976.8706787378363,
+    "MAE": 451.29819340433437,
+    "R2": 0.9371517521647482
+  }
+}
