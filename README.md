@@ -1,6 +1,6 @@
 # Lab 2: steel production modelling
 
-Open `lab_2.ipynb` for the completed assignment or `lab_2.html` to read the executed notebook without Jupyter. All required exercises are completed, including Pandera validation, regression comparisons, five-fold CV, hyperparameter search, 30 Optuna trials, MLflow tracking and verified model reload. The optional TabFM bonus is omitted.
+Open `lab_2.ipynb` for the completed assignment or `lab_2.html` to read the executed notebook without Jupyter. All required exercises are completed, including Pandera validation, regression comparisons, five-fold CV, hyperparameter search, 30 Optuna trials, MLflow tracking and verified model reload. The TabFM bonus uses the official v1.0 regression checkpoint on the same holdout; its measured predictions are included as artifacts.
 
 The selected model is a tuned Random Forest: training-CV RMSE **811.7**, test RMSE **976.9**, test MAE **451.3 thousand tonnes**, and test R² **0.937**. Linear Regression scores better on this particular test split (RMSE **773.9**); the notebook reports that disagreement and preserves selection by training CV.
 
@@ -19,6 +19,27 @@ The runner uses the current Python interpreter for a fresh notebook kernel, save
 
 For interactive work, open the notebook in an editor with Jupyter support and select this folder's `.venv/bin/python`. Run with this folder as the working directory.
 
+## TabFM bonus
+
+Measured result on the same 52 test plants: **RMSE 554.3**, **MAE 385.4 thousand tonnes**, **R² 0.980**. TabFM beats the selected Random Forest (RMSE 976.9) and Linear Regression (RMSE 773.9) on this holdout. The saved classical pipeline remains the deployment candidate because the pretrained TabFM weights prohibit production use. This single split does not establish superiority on later releases or rule out pretraining exposure to related public data.
+
+
+The notebook verifies and evaluates the saved TabFM predictions by default, so reading or rerunning the classical analysis does not require downloading the 6.6 GB pretrained weights again. It checks input/split hashes, exact test IDs, context membership and recalculated metrics. The measured inference manifest records package versions, checkpoint hash, source revisions, runtime and the 100 training-context IDs.
+
+To repeat TabFM inference, create a separate environment from this folder:
+
+```bash
+uv venv --python 3.12 .tabfm-venv
+uv pip install --python .tabfm-venv/bin/python -r requirements-tabfm.txt
+RERUN_TABFM=1 .venv/bin/python run_notebook.py
+```
+
+`run_tabfm.py` downloads the pinned regression checkpoint into `.tabfm-cache/` if needed. That cache and both environments are excluded from Git and the ZIP. To reuse an existing checkpoint root containing `regression/config.json` and `regression/model.safetensors`, set `TABFM_CHECKPOINT` to that directory. Set `TABFM_PYTHON` to override the separate interpreter path.
+
+The fixed configuration uses one estimator, a 100-row context cap, seed 42, CPU bfloat16 and batch size 1. The estimator count is reduced from the library's 32-estimator default for local resource use, not selected by looking at test scores. No hyperparameter search is performed. The model receives all eight base inputs and the three deterministic engineered features, then applies its own native preprocessing. The checkpoint version is v1.0.0; the library wheel version is 1.0.1 from the pinned official commit recorded in `vendor/TABFM_SOURCE.txt`.
+
+TabFM needs `typeguard<3`, whereas the lab's validation stack uses a newer typeguard version. The separate environment avoids changing the working classical environment. The official model weights are restricted to non-commercial, non-production use. They are not redistributed in this repository. The source wheel is Apache-2.0; its license and provenance are in `vendor/`.
+
 ## Files
 
 - `lab_2.ipynb`: completed notebook with code, explanations, tables and plots.
@@ -28,7 +49,8 @@ For interactive work, open the notebook in an editor with Jupyter support and se
 - `artifacts/`: saved pipeline, schemas, source/model checksums, metrics, predictions, plots, split manifest, monitoring reference and exported experiment records.
 - `mlflow.db` and `mlflow_artifacts/`: local experiment store and logged artifacts.
 - `optuna.db`: persistent studies and all trial results.
-- `requirements.txt`: exact package versions used for execution.
+- `requirements.txt`: exact package versions used for classical execution.
+- `requirements-tabfm.txt`, `run_tabfm.py`, and `vendor/`: isolated TabFM dependencies, inference runner and pinned source wheel.
 - `run_notebook.py`: execution and HTML export.
 - `test_lab.py`: feature edge cases, schema rejection and saved prediction checks.
 - `pyproject.toml`: lint and strict type-check settings. The notebook code was also extracted and checked with these settings. Untyped calls into nbformat, nbconvert and IPython are exempt because those display/execution libraries do not provide typed APIs.

@@ -1,0 +1,12 @@
+TabFM source wheel
+
+Source: https://github.com/google-research/tabfm
+Commit: fbb665569425fd2f490c6576b3af967876fe11ff
+Package version: 1.0.1
+Pretrained model version evaluated: TabFM v1.0.0, regression
+Source license: Apache-2.0 (see TABFM_LICENSE and wheel metadata)
+
+This wheel was built without source modifications from the pinned official repository.
+Model weights are not included. Their separate non-commercial, non-production license
+is available in the official Hugging Face repository:
+https://huggingface.co/google/tabfm-1.0.0-pytorch

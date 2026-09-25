@@ -2,24 +2,34 @@
   "executed_code_cells": 16,
   "notebook_error_outputs": 0,
   "completed_reflection_answers": 16,
-  "pytest": "7 passed",
-  "strict_type_check": "Passed on extracted notebook and 3 supporting Python files",
+  "pytest": "8 passed",
+  "strict_type_check": "Passed on extracted notebook and 4 supporting Python files",
   "lint": "Passed",
   "format": "Black check passed",
   "notebook_schema_validation": "Passed",
   "model_and_data_checksums": "Verified",
-  "latest_execution_mlflow_runs": 33,
+  "latest_execution_mlflow_runs": 34,
   "latest_study_completed_trials": 30,
   "saved_pipeline_prediction_parity": "Passed, absolute tolerance 1e-10",
   "visual_review": "Correlation, target distribution and final diagnostic plots inspected",
-  "independent_review": "No remaining substantive findings",
+  "independent_review": "No remaining substantive findings; TabFM scores independently recalculated from predictions",
   "build": "Not applicable: notebook project",
   "required_lab_exercises": "Complete",
-  "optional_TabFM_bonus": "Omitted",
-  "student_submission_details": "All names and student IDs supplied. Adam Zeraiki is submitter. Public repository URL recorded. Submission email prepared, not sent.",
+  "optional_TabFM_bonus": "Completed: actual official pretrained-model inference; notebook verifies and evaluates recorded predictions",
+  "student_submission_details": "All names and IDs filled. Adam Zeraiki submits. Public repository created at user request. Email prepared, not sent.",
   "model_metrics": {
     "RMSE": 976.8706787378363,
     "MAE": 451.29819340433437,
     "R2": 0.9371517521647482
-  }
+  },
+  "TabFM_test_metrics": {
+    "rmse": 554.283182405352,
+    "mae": 385.3950688288762,
+    "r2": 0.9797659681398839
+  },
+  "TabFM_prediction_seconds": 6.055636791999859,
+  "TabFM_checkpoint_sha256": "bd5a615b0322a8f04a895038de6df6fbd71430eca750e1d792f31048654674a9",
+  "TabFM_context": "Exactly 100 unique training plants; zero held-out plants",
+  "TabFM_rerun": "RERUN_TABFM=1 with the separate environment described in README",
+  "repository_url": "https://github.com/Azzbee/aidams-lab2-zeraiki-oumhand-karam-szefner"
 }

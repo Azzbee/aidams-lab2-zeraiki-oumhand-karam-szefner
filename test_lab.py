@@ -75,3 +75,51 @@ def test_stored_pipeline_matches_notebook_and_serving() -> None:
     )
     pipeline = joblib.load(artifacts / "best_pipeline.joblib")
     np.testing.assert_allclose(actual, pipeline.predict(frame), rtol=0, atol=1e-10)
+
+
+def test_tabfm_result_uses_only_training_context_and_matches_metrics() -> None:
+    import hashlib
+    import json
+
+    from sklearn.metrics import mean_absolute_error, r2_score, root_mean_squared_error
+
+    artifacts = BASE / "artifacts"
+    result = json.loads((artifacts / "tabfm_result.json").read_text())
+    assert result["status"] == "completed"
+    for filename, key in [
+        ("clean_plant_data.csv", "dataset_sha256"),
+        ("split_manifest.csv", "split_sha256"),
+    ]:
+        assert (
+            hashlib.sha256((artifacts / filename).read_bytes()).hexdigest()
+            == result[key]
+        )
+    split = pd.read_csv(artifacts / "split_manifest.csv", index_col="GEM plant ID")
+    train_ids = set(split.index[split["split"].eq("train")])
+    test_ids = set(split.index[split["split"].eq("test")])
+    predictions = pd.DataFrame(result["predictions"]).set_index("GEM plant ID")
+    assert predictions.index.is_unique and set(predictions.index) == test_ids
+    assert len(predictions) == 52
+    data = pd.read_csv(artifacts / "clean_plant_data.csv", index_col="GEM plant ID")
+    np.testing.assert_allclose(
+        predictions["actual"], data.loc[predictions.index, "production_2024_ttpa"]
+    )
+    assert (
+        result["checkpoint_sha256"]
+        == "bd5a615b0322a8f04a895038de6df6fbd71430eca750e1d792f31048654674a9"
+    )
+    assert sum(len(patterns) for patterns in result["context_ids"].values()) == 1
+    for patterns in result["context_ids"].values():
+        for context in patterns:
+            assert len(context) == len(set(context)) == 100
+            assert set(context).issubset(train_ids)
+            assert set(context).isdisjoint(test_ids)
+    assert np.isfinite(predictions["prediction"]).all()
+    actual, predicted = predictions["actual"], predictions["prediction"]
+    computed = {
+        "rmse": root_mean_squared_error(actual, predicted),
+        "mae": mean_absolute_error(actual, predicted),
+        "r2": r2_score(actual, predicted),
+    }
+    for name, value in computed.items():
+        np.testing.assert_allclose(value, result["metrics"][name], rtol=1e-10)

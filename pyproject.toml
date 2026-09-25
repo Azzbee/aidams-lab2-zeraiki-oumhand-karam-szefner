@@ -9,4 +9,4 @@ python_version = "3.12"
 strict = true
 ignore_missing_imports = true
 untyped_calls_exclude = ["nbformat", "nbconvert", "IPython"]
-files = ["lab_utils.py", "run_notebook.py", "test_lab.py"]
+files = ["lab_utils.py", "run_notebook.py", "test_lab.py", "run_tabfm.py"]

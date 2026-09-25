@@ -7894,7 +7894,9 @@ a.anchor-link {
 <span class="kn">import</span><span class="w"> </span><span class="nn">importlib.metadata</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">platform</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">subprocess</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">collections.abc</span><span class="w"> </span><span class="kn">import</span> <span class="n">Sequence</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timezone</span>
@@ -8059,7 +8061,13 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Dataset SHA-256: a5768b59cd7e6cec217692ae45eda80ea70aab1666aef74332cc1b41dd5338eb
-About (60, 3)
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>About (60, 3)
 Metadata (79, 2)
 Plant data (1293, 44)
 Plant capacities and status (1845, 16)
@@ -9511,7 +9519,13 @@ What would break in training or in a later deployment if you skipped this check?
 <pre>Plants retained: 257 of 1293
 Rows excluded for missing target: 1036
 Observed output but no active 2026 capacity: 7
-Training/test plants: 205 52
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Training/test plants: 205 52
 </pre>
 </div>
 </div>
@@ -11013,6 +11027,81 @@ Summarize your results. How stable is performance across folds? What might this 
 <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">cv_tables</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"model"</span><span class="p">,</span> <span class="s2">"fold"</span><span class="p">])</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"cv_fold_metrics.csv"</span><span class="p">)</span>
 <span class="n">top_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">comparison</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Lowest mean training-CV RMSE:"</span><span class="p">,</span> <span class="n">top_name</span><span class="p">)</span>
+
+<span class="c1"># Bonus: recorded TabFM inference on this exact held-out split.</span>
+<span class="c1"># RERUN_TABFM=1 requests fresh inference in the separate TabFM environment.</span>
+<span class="c1"># With no rerun flag, verify and use the committed measured predictions.</span>
+<span class="n">bonus_path</span> <span class="o">=</span> <span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"tabfm_result.json"</span>
+<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"RERUN_TABFM"</span><span class="p">)</span> <span class="o">==</span> <span class="s2">"1"</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">bonus_path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+    <span class="n">tabfm_python</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"TABFM_PYTHON"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">BASE</span> <span class="o">/</span> <span class="s2">".tabfm-venv/bin/python"</span><span class="p">))</span>
+    <span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">tabfm_python</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span>
+            <span class="s2">"Set up .tabfm-venv using requirements-tabfm.txt; see README."</span>
+        <span class="p">)</span>
+    <span class="n">command</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="nb">str</span><span class="p">(</span><span class="n">tabfm_python</span><span class="p">),</span>
+        <span class="nb">str</span><span class="p">(</span><span class="n">BASE</span> <span class="o">/</span> <span class="s2">"run_tabfm.py"</span><span class="p">),</span>
+        <span class="s2">"--artifacts"</span><span class="p">,</span>
+        <span class="nb">str</span><span class="p">(</span><span class="n">ARTIFACTS</span><span class="p">),</span>
+        <span class="s2">"--output"</span><span class="p">,</span>
+        <span class="nb">str</span><span class="p">(</span><span class="n">bonus_path</span><span class="p">),</span>
+    <span class="p">]</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"TABFM_CHECKPOINT"</span><span class="p">):</span>
+        <span class="n">command</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">"--checkpoint"</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"TABFM_CHECKPOINT"</span><span class="p">]]</span>
+    <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">command</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cwd</span><span class="o">=</span><span class="n">BASE</span><span class="p">)</span>
+<span class="n">tabfm_result</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">bonus_path</span><span class="o">.</span><span class="n">read_text</span><span class="p">())</span>
+<span class="k">assert</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"status"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"completed"</span>
+<span class="k">assert</span> <span class="p">(</span>
+    <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"checkpoint_sha256"</span><span class="p">]</span>
+    <span class="o">==</span> <span class="s2">"bd5a615b0322a8f04a895038de6df6fbd71430eca750e1d792f31048654674a9"</span>
+<span class="p">)</span>
+<span class="k">assert</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"config_git_blob"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"61e3f1b7e6042b89fcfb21ef8e866c32b5f43cde"</span>
+<span class="k">assert</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"config"</span><span class="p">][</span><span class="s2">"n_estimators"</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span>
+<span class="k">assert</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"source_revision"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"fbb665569425fd2f490c6576b3af967876fe11ff"</span>
+<span class="k">assert</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"weights_revision"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"77cb9cc1b4fd3a9c77fbb9552c218200bb4dab83"</span>
+<span class="k">assert</span> <span class="p">(</span>
+    <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"dataset_sha256"</span><span class="p">]</span>
+    <span class="o">==</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">((</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"clean_plant_data.csv"</span><span class="p">)</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="p">)</span>
+<span class="k">assert</span> <span class="p">(</span>
+    <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"split_sha256"</span><span class="p">]</span>
+    <span class="o">==</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">((</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"split_manifest.csv"</span><span class="p">)</span><span class="o">.</span><span class="n">read_bytes</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="p">)</span>
+<span class="k">assert</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"features"</span><span class="p">]</span> <span class="o">==</span> <span class="n">FEATURES</span> <span class="o">+</span> <span class="n">ENGINEERED</span>
+<span class="n">recorded_predictions</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"predictions"</span><span class="p">])</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="n">ID</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">recorded_predictions</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">is_unique</span>
+<span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">recorded_predictions</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="o">==</span> <span class="nb">set</span><span class="p">(</span><span class="n">X_test</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">testing</span><span class="o">.</span><span class="n">assert_allclose</span><span class="p">(</span><span class="n">recorded_predictions</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="s2">"actual"</span><span class="p">],</span> <span class="n">y_test</span><span class="p">)</span>
+<span class="n">tabfm_predictions</span> <span class="o">=</span> <span class="n">recorded_predictions</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">X_test</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="s2">"prediction"</span><span class="p">]</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(</span>
+    <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span>
+<span class="p">)</span>
+<span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">isfinite</span><span class="p">(</span><span class="n">tabfm_predictions</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<span class="n">tabfm_test_metrics</span> <span class="o">=</span> <span class="n">metrics</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">tabfm_predictions</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">metric_name</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">tabfm_test_metrics</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">testing</span><span class="o">.</span><span class="n">assert_allclose</span><span class="p">(</span>
+        <span class="n">value</span><span class="p">,</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"metrics"</span><span class="p">][</span><span class="n">metric_name</span><span class="o">.</span><span class="n">lower</span><span class="p">()],</span> <span class="n">rtol</span><span class="o">=</span><span class="mf">1e-10</span>
+    <span class="p">)</span>
+<span class="k">assert</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">patterns</span><span class="p">)</span> <span class="k">for</span> <span class="n">patterns</span> <span class="ow">in</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"context_ids"</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="o">==</span> <span class="mi">1</span>
+<span class="k">for</span> <span class="n">context_patterns</span> <span class="ow">in</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"context_ids"</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">context_ids</span> <span class="ow">in</span> <span class="n">context_patterns</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">context_ids</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">context_ids</span><span class="p">))</span> <span class="o">==</span> <span class="mi">100</span>
+        <span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">context_ids</span><span class="p">)</span><span class="o">.</span><span class="n">issubset</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">X_train</span><span class="o">.</span><span class="n">index</span><span class="p">))</span>
+        <span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">context_ids</span><span class="p">)</span><span class="o">.</span><span class="n">isdisjoint</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">X_test</span><span class="o">.</span><span class="n">index</span><span class="p">))</span>
+<span class="n">bonus_comparison</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">"Default RF pipeline"</span><span class="p">:</span> <span class="n">baseline_results</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">"Default RF pipeline"</span><span class="p">]</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(),</span>
+        <span class="s2">"Linear Regression"</span><span class="p">:</span> <span class="n">linear_results</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">"test"</span><span class="p">]</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(),</span>
+        <span class="s2">"TabFM v1.0 (one estimator, 100-row context)"</span><span class="p">:</span> <span class="n">tabfm_test_metrics</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span><span class="o">.</span><span class="n">T</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Measured TabFM inference timestamp:"</span><span class="p">,</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"completed_utc"</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Recorded configuration:"</span><span class="p">,</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"config"</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Input and split hashes verified. No test rows occur in the training context."</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">bonus_comparison</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">recorded_predictions</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"tabfm_test_predictions.csv"</span><span class="p">)</span>
+<span class="n">bonus_comparison</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"tabfm_comparison.csv"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -11088,7 +11177,60 @@ Summarize your results. How stable is performance across folds? What might this 
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Lowest mean training-CV RMSE: Random Forest
+Measured TabFM inference timestamp: 2026-09-25T09:48:29.478088+00:00
+Recorded configuration: {'max_num_rows': 100, 'n_estimators': 1, 'random_state': 42, 'batch_size': 1, 'device': 'cpu', 'dtype': 'bfloat16', 'threads': 4}
+Input and split hashes verified. No test rows occur in the training context.
 </pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>RMSE</th>
+<th>MAE</th>
+<th>R2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Default RF pipeline</th>
+<td>885.115</td>
+<td>404.452</td>
+<td>0.948</td>
+</tr>
+<tr>
+<th>Linear Regression</th>
+<td>773.928</td>
+<td>509.836</td>
+<td>0.961</td>
+</tr>
+<tr>
+<th>TabFM v1.0 (one estimator, 100-row context)</th>
+<td>554.283</td>
+<td>385.395</td>
+<td>0.980</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </div>
@@ -11107,7 +11249,16 @@ Create a small results table. Which model performs best? Why might that be the c
 <p><strong>Answer</strong></p>
 <p><strong>Random Forest wins the default-model CV comparison:</strong> mean RMSE <strong>825.3</strong>, versus <strong>883.9 for Ridge</strong> and <strong>1,007.4 for Linear Regression</strong>. Random Forest has mean MAE <strong>514.2</strong> and R² <strong>0.889</strong>. Its RMSE fold standard deviation is <strong>180.3</strong>, larger than Ridge’s <strong>119.1</strong>, so the mean advantage comes with greater fold variability. Nonlinear relationships and route interactions are plausible reasons for its lead; this comparison does not prove which mechanism caused it.</p>
 <p>The results table names the winner by lowest mean five-fold RMSE, with MAE and R² shown on the same folds. Random Forest can capture thresholds and route interactions, but may struggle with plants larger than those in its training set. Linear Regression can extrapolate with capacity, but correlated features and rare categories make its coefficients unstable. Ridge shrinks coefficients and can reduce that instability. The measured CV ranking, rather than a preference for model complexity, determines which family is tuned next.</p>
-<p><strong>Optional TabFM bonus:</strong> omitted from this submission. The three required classical models are fully evaluated. No TabFM result or claim that it beats a classical model is fabricated. The <a href="https://github.com/google-research/tabfm">official repository</a> documents the separate pretrained model workflow. The classical pipeline is the deployment candidate for this lab, subject to fixing the predictor/outcome timing mismatch.</p>
+<p><strong>Measured TabFM result:</strong> RMSE <strong>554.3 thousand tonnes</strong>, MAE <strong>385.4 thousand tonnes</strong>, and R² <strong>0.980</strong> on all <strong>52 held-out plants</strong>. It beats the CV-selected tuned Random Forest (RMSE <strong>976.9</strong>) and Linear Regression, the strongest reported classical model on this test split (RMSE <strong>773.9</strong>). This is one fixed held-out evaluation, not proof of superiority across releases or future years. The pretrained model could also have prior exposure to related public data; this experiment cannot rule that out.</p>
+<p><strong>TabFM bonus:</strong> the code above verifies and evaluates predictions produced by the official TabFM v1.0 regression checkpoint. <code>run_tabfm.py</code> contains the actual model call:</p>
+<div class="highlight"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">tabfm_v1_0_0_pytorch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">model_type</span><span class="o">=</span><span class="s2">"regression"</span><span class="p">,</span> <span class="n">checkpoint_path</span><span class="o">=</span><span class="n">checkpoint</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">"cpu"</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bfloat16</span><span class="p">)</span>
+<span class="n">regressor</span> <span class="o">=</span> <span class="n">TabFMRegressor</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span> <span class="n">n_estimators</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">max_num_rows</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">regressor</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">predictions</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
+</pre></div>
+<p>A single estimator was fixed before evaluation to keep this 6.6 GB checkpoint practical on the local machine. It is not the library's default 32-estimator ensemble. The 100 context plants are sampled from the same 205 training plants; all 52 held-out plants are evaluated. TabFM receives the same eight base columns and three deterministic features as the classical models, with its own native preprocessing. No TabFM hyperparameter search is performed. This compares the configured systems, not equal compute budgets.</p>
+<p>The package wheel is version 1.0.1, built from a pinned official source commit; the pretrained checkpoint evaluated is v1.0.0. The separate environment avoids TabFM's <code>typeguard&lt;3</code> requirement conflicting with Pandera. By default the notebook reuses measured predictions only after validating the input and split hashes, row identities, context membership and metrics. Set <code>RERUN_TABFM=1</code> to repeat actual inference. Results are not simulated or generated from the classical model.</p>
+<p>The final comparison with the CV-selected tuned pipeline appears in Task 4.3. For deployment, retain the classical pipeline: the <a href="https://github.com/google-research/tabfm#license-notice-for-pretrained-weights">official TabFM weights</a> permit only non-commercial, non-production use. The timing mismatch in this dataset still needs to be fixed before operational forecasting.</p>
 </div>
 </div>
 </div>
@@ -11313,6 +11464,24 @@ Discuss the role of hyperparameter tuning. How did tuning change your model’s 
 <span class="p">}</span>
 <span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">run_ids</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">"MLflow run ID"</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Tracking store:"</span><span class="p">,</span> <span class="n">TRACKING_URI</span><span class="p">)</span>
+<span class="k">with</span> <span class="n">mlflow</span><span class="o">.</span><span class="n">start_run</span><span class="p">(</span><span class="n">run_name</span><span class="o">=</span><span class="s2">"tabfm-heldout-bonus"</span><span class="p">)</span> <span class="k">as</span> <span class="n">tabfm_run</span><span class="p">:</span>
+    <span class="n">mlflow</span><span class="o">.</span><span class="n">set_tags</span><span class="p">(</span>
+        <span class="p">{</span>
+            <span class="s2">"execution_id"</span><span class="p">:</span> <span class="n">EXECUTION_ID</span><span class="p">,</span>
+            <span class="s2">"data_sha256"</span><span class="p">:</span> <span class="n">DATA_SHA256</span><span class="p">,</span>
+            <span class="s2">"source_revision"</span><span class="p">:</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"source_revision"</span><span class="p">],</span>
+            <span class="s2">"weights_revision"</span><span class="p">:</span> <span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"weights_revision"</span><span class="p">],</span>
+        <span class="p">}</span>
+    <span class="p">)</span>
+    <span class="n">mlflow</span><span class="o">.</span><span class="n">log_params</span><span class="p">({</span><span class="s2">"model_type"</span><span class="p">:</span> <span class="s2">"TabFM v1.0 regression"</span><span class="p">,</span> <span class="o">**</span><span class="n">tabfm_result</span><span class="p">[</span><span class="s2">"config"</span><span class="p">]})</span>
+    <span class="n">mlflow</span><span class="o">.</span><span class="n">log_metrics</span><span class="p">(</span>
+        <span class="p">{</span><span class="sa">f</span><span class="s2">"test_</span><span class="si">{</span><span class="n">key</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">:</span> <span class="n">value</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">tabfm_test_metrics</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+    <span class="p">)</span>
+    <span class="n">mlflow</span><span class="o">.</span><span class="n">log_artifact</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">bonus_path</span><span class="p">))</span>
+    <span class="n">mlflow</span><span class="o">.</span><span class="n">log_artifact</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"tabfm_comparison.csv"</span><span class="p">))</span>
+    <span class="n">mlflow</span><span class="o">.</span><span class="n">log_artifact</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">BASE</span> <span class="o">/</span> <span class="s2">"run_tabfm.py"</span><span class="p">))</span>
+    <span class="n">run_ids</span><span class="p">[</span><span class="s2">"tabfm"</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">tabfm_run</span><span class="o">.</span><span class="n">info</span><span class="o">.</span><span class="n">run_id</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"TabFM MLflow run:"</span><span class="p">,</span> <span class="n">run_ids</span><span class="p">[</span><span class="s2">"tabfm"</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -11325,8 +11494,9 @@ Discuss the role of hyperparameter tuning. How did tuning change your model’s 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/Users/adamzer/Documents/Codex/2026-09-25/ca/outputs/lab_2_complete/.venv/lib/python3.14/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+<pre>/Users/adamzer/Documents/Codex/2026-09-25/ca/work/.venv/lib/python3.12/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
   from .autonotebook import tqdm as notebook_tqdm
+2026/09/25 11:49:46 INFO mlflow.agent.hint: Load the `instrumenting-with-mlflow-tracing` skill at /Users/adamzer/Documents/Codex/2026-09-25/ca/work/.venv/lib/python3.12/site-packages/mlflow/assistant/skills/instrumenting-with-mlflow-tracing/SKILL.md before writing any tracing code; it ships with this MLflow install. Set MLFLOW_DISABLE_AGENT_HINT=1 to silence this.
 </pre>
 </div>
 </div>
@@ -11357,11 +11527,11 @@ Discuss the role of hyperparameter tuning. How did tuning change your model’s 
 <tbody>
 <tr>
 <th>dummy</th>
-<td>316e5f8bf07a4ae08adfddcf197a10a0</td>
+<td>18b186c6ebaa4b4bb6fc4090fe469ae4</td>
 </tr>
 <tr>
 <th>search</th>
-<td>7fff15e8cd8c45eb995876473ee1c875</td>
+<td>249993c9050e40cb879e55a747d72214</td>
 </tr>
 </tbody>
 </table>
@@ -11372,6 +11542,7 @@ Discuss the role of hyperparameter tuning. How did tuning change your model’s 
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>Tracking store: sqlite:////Users/adamzer/Documents/Codex/2026-09-25/ca/outputs/lab_2_complete/mlflow.db
+TabFM MLflow run: 77dc111800de45b5b66ea90a6a7bcd74
 </pre>
 </div>
 </div>
@@ -11497,7 +11668,7 @@ Describe how MLflow helps manage your experiments. What advantages does it give 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/var/folders/nm/1kdjw0m14kb2157pvpm5nc640000gn/T/ipykernel_11962/977271020.py:28: FutureWarning: MLflowCallback has been deprecated in v4.9.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v4.9.0.
+<pre>/var/folders/nm/1kdjw0m14kb2157pvpm5nc640000gn/T/ipykernel_73855/977271020.py:28: FutureWarning: MLflowCallback has been deprecated in v4.9.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v4.9.0.
   callback = MLflowCallback(
 </pre>
 </div>
@@ -11695,10 +11866,22 @@ Explain what Optuna is doing behind the scenes. How is it different from Grid or
     <span class="n">filter_string</span><span class="o">=</span><span class="sa">f</span><span class="s2">"tags.execution_id = '</span><span class="si">{</span><span class="n">EXECUTION_ID</span><span class="si">}</span><span class="s2">'"</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="k">assert</span> <span class="p">(</span>
-    <span class="nb">len</span><span class="p">(</span><span class="n">runs</span><span class="p">)</span> <span class="o">==</span> <span class="mi">33</span>
-<span class="p">),</span> <span class="sa">f</span><span class="s2">"Expected baseline + search + 30 trials + final, got </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">runs</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
+    <span class="nb">len</span><span class="p">(</span><span class="n">runs</span><span class="p">)</span> <span class="o">==</span> <span class="mi">34</span>
+<span class="p">),</span> <span class="sa">f</span><span class="s2">"Expected baseline + search + TabFM + 30 trials + final, got </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">runs</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
 <span class="n">runs</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"mlflow_runs.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Verified MLflow run count:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">runs</span><span class="p">))</span>
+<span class="n">final_bonus_comparison</span> <span class="o">=</span> <span class="n">bonus_comparison</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">final_bonus_comparison</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">"CV-selected tuned Random Forest"</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">final_metrics</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">final_bonus_comparison</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">final_bonus_comparison</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ARTIFACTS</span> <span class="o">/</span> <span class="s2">"tabfm_comparison.csv"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span>
+    <span class="s2">"TabFM beats selected classical RMSE:"</span><span class="p">,</span>
+    <span class="n">tabfm_test_metrics</span><span class="p">[</span><span class="s2">"RMSE"</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">final_metrics</span><span class="p">[</span><span class="s2">"RMSE"</span><span class="p">],</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span>
+    <span class="s2">"TabFM beats Linear Regression test RMSE:"</span><span class="p">,</span>
+    <span class="n">tabfm_test_metrics</span><span class="p">[</span><span class="s2">"RMSE"</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nb">float</span><span class="p">(</span><span class="n">cast</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span> <span class="n">linear_results</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">"test"</span><span class="p">,</span> <span class="s2">"RMSE"</span><span class="p">])),</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -11769,7 +11952,71 @@ Negative predictions: 0
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Verified MLflow run count: 33
+<pre>Verified MLflow run count: 34
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>RMSE</th>
+<th>MAE</th>
+<th>R2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Default RF pipeline</th>
+<td>885.115</td>
+<td>404.452</td>
+<td>0.948</td>
+</tr>
+<tr>
+<th>Linear Regression</th>
+<td>773.928</td>
+<td>509.836</td>
+<td>0.961</td>
+</tr>
+<tr>
+<th>TabFM v1.0 (one estimator, 100-row context)</th>
+<td>554.283</td>
+<td>385.395</td>
+<td>0.980</td>
+</tr>
+<tr>
+<th>CV-selected tuned Random Forest</th>
+<td>976.871</td>
+<td>451.298</td>
+<td>0.937</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>TabFM beats selected classical RMSE: True
+TabFM beats Linear Regression test RMSE: True
 </pre>
 </div>
 </div>
@@ -11790,6 +12037,7 @@ Why is it important to store both model parameters and metadata? How would you e
 <p>The selected pipeline reloads with <strong>RMSE 976.9</strong>, <strong>MAE 451.3 thousand tonnes</strong>, and <strong>R² 0.937</strong> on <strong>52 test plants</strong>. Prediction equality passes at absolute tolerance <strong>1e-10</strong> and the metric dictionaries match exactly. It produces no negative test predictions. The diagnostic plot shows its largest underpredictions at the high-production end, consistent with the limited extrapolation of tree models.</p>
 <p>The saved object includes feature engineering, imputation, scaling, category encoding and the regressor. Reloaded predictions and all test scores are checked against the in-memory pipeline. <code>lab_utils.py</code> is also required because it defines the serializable feature function.</p>
 <p>Metadata records the data checksum, target year, snapshot date, feature names, package versions, split size, random seed, model checksum and measured scores. In production, version these together under one immutable model release, retain the training-data snapshot, and promote a release only after schema and prediction tests pass. A registry alias can identify the approved release while older artifacts remain available for rollback. Load only trusted joblib files, since deserialization executes Python objects.</p>
+<p>The final bonus table reports TabFM alongside the classical models. TabFM has the lowest measured test RMSE (<strong>554.3</strong>) and MAE (<strong>385.4</strong>), but the stored deployment candidate remains the CV-selected classical pipeline because the pretrained TabFM weights prohibit production use. No test score was used to retune either system.</p>
 </div>
 </div>
 </div>
@@ -11811,6 +12059,7 @@ If you tried TabFM, would you deploy it or the classical pipeline? The pretraine
 <p><strong>Answer</strong></p>
 <p>Deploy the saved pipeline as a scheduled batch job for normalized plant snapshots. An ingestion step must implement the documented source-sentinel and active-status rules before calling <code>predict_batch</code>; raw Excel strings are not the serving contract. The function validates the exact base input columns with the same Pandera schema used in training, then calls the pipeline, which creates features and applies its fitted transforms. The example below verifies both valid prediction and rejection of negative capacity.</p>
 <p>Before operational use, replace the retrospective setup with predictors dated before the outcome year and evaluate on later years. Monitor RMSE, MAE and systematic over/underprediction once annual actuals arrive, both overall and by country/capacity band. Monitor schema rejection rate, missingness, unseen country/equipment values, prediction distribution and negative predictions before labels arrive. Log the model version and input snapshot for every batch. Reject malformed rows with reasons, alert on a rising rejected share, and review drift before retraining. Any decision to clip negative predictions requires a separately evaluated policy; the lab reports raw model predictions.</p>
+<p>TabFM is evaluated for the lab only. Its pretrained weights prohibit production use, so the saved classical pipeline remains the deployment candidate regardless of the bonus score. Its smaller artifact and lower inference cost also simplify deployment.</p>
 </div>
 </div>
 </div>
@@ -12146,7 +12395,7 @@ Name one column from your Pandera schema you would watch first, and what shift i
 <tr>
 <th>3</th>
 <td>MLflow runs recorded</td>
-<td>33</td>
+<td>34</td>
 </tr>
 <tr>
 <th>4</th>
